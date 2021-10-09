@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="LoadStaging"
   DTS:PackageType="5"
-  DTS:VersionBuild="25"
-  DTS:VersionGUID="{79B6D820-6B07-4BA6-A053-A8E7DFBBFB6D}">
+  DTS:VersionBuild="26"
+  DTS:VersionGUID="{AD3F414C-5B1A-4E7A-8541-8609CB5406E0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -2648,7 +2648,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG Categories.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2774,7 +2774,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG Customers.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3009,7 +3009,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG Employees.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3300,7 +3300,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG EmployeeTerritories.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3426,7 +3426,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG OrderDetails.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3584,7 +3584,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG Orders.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3848,7 +3848,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG Products.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4063,7 +4063,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG Region.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4189,7 +4189,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG Shippers.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4327,7 +4327,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG Suppliers.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4561,7 +4561,7 @@
                 <connection
                   refId="Package\Load data from SRC to STG\Populate STG Territories.Connections[OleDbConnection]"
                   connectionManagerID="{9978FA64-EE2D-431C-86A4-29563379DC64}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW]"
+                  connectionManagerRefId="Project.ConnectionManagers[NorthwindDW-OLEDB]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4741,16 +4741,134 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="217,42"
+          Size="216.8,41.6"
           Id="Package\Load data from SRC to STG"
-          TopLeft="441.5,314.5" />
+          TopLeft="442.33333330022,314.5" />
         <NodeLayout
-          Size="225,42"
+          Size="224.8,41.6"
           Id="Package\Truncate staging tables"
           TopLeft="437.5,212.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="550,254.5">
+          TopLeft="550.31666665011,254.1">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60.4"
+              Start="0,0"
+              End="0,52.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Load data from SRC to STG">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="212,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC Employees"
+          TopLeft="1405.63636363636,158.227272727273" />
+        <NodeLayout
+          Size="193.6,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG Shippers"
+          TopLeft="85.6363636363635,512.227272727273" />
+        <NodeLayout
+          Size="192,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC Region"
+          TopLeft="612.636363636364,158.227272727273" />
+        <NodeLayout
+          Size="200.8,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG Territories"
+          TopLeft="868.136363636364,260.227272727273" />
+        <NodeLayout
+          Size="212,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC EmployeeTerritories"
+          TopLeft="1132.63636363636,158.227272727273" />
+        <NodeLayout
+          Size="196.8,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG Suppliers"
+          TopLeft="1141.13636363636,512.227272727272" />
+        <NodeLayout
+          Size="211.2,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC Customers"
+          TopLeft="341.136363636364,158.227272727273" />
+        <NodeLayout
+          Size="200.8,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC Products"
+          TopLeft="876.136363636364,410.227272727272" />
+        <NodeLayout
+          Size="204,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG Customers"
+          TopLeft="344.636363636364,260.227272727273" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG Region"
+          TopLeft="615.636363636364,260.227272727273" />
+        <NodeLayout
+          Size="212.8,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG OrderDetails"
+          TopLeft="599.136363636364,512.227272727273" />
+        <NodeLayout
+          Size="204,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG Categories"
+          TopLeft="72.6363636363635,260.227272727273" />
+        <NodeLayout
+          Size="193.6,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG Products"
+          TopLeft="879.636363636364,512.227272727272" />
+        <NodeLayout
+          Size="204.8,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG Employees"
+          TopLeft="1409.13636363636,260.227272727273" />
+        <NodeLayout
+          Size="200.8,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC Shippers"
+          TopLeft="82.1363636363635,410.227272727272" />
+        <NodeLayout
+          Size="207.2,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC Territories"
+          TopLeft="865.136363636364,158.227272727273" />
+        <NodeLayout
+          Size="219.2,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC OrderDetails"
+          TopLeft="596.136363636364,410.227272727272" />
+        <NodeLayout
+          Size="184.8,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG Orders"
+          TopLeft="347.136363636364,512.227272727273" />
+        <NodeLayout
+          Size="191.2,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC Orders"
+          TopLeft="344.136363636364,410.227272727272" />
+        <NodeLayout
+          Size="203.2,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC Suppliers"
+          TopLeft="1138.13636363636,410.227272727272" />
+        <NodeLayout
+          Size="211.2,41.6"
+          Id="Package\Load data from SRC to STG\Load from SRC Categories"
+          TopLeft="69.1363636363635,158.227272727273" />
+        <NodeLayout
+          Size="204.8,41.6"
+          Id="Package\Load data from SRC to STG\Populate STG EmployeeTerritories"
+          TopLeft="1136.13636363636,260.227272727273" />
+        <EdgeLayout
+          Id="Package\Load data from SRC to STG.Paths[OLE DB Source Output10]"
+          TopLeft="1239.63636363636,452.227272727272">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -4770,102 +4888,72 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </Package>
-  <TaskHost
-    design-time-name="Package\Load data from SRC to STG">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="212,42"
-          Id="Package\Load data from SRC to STG\Load from SRC Employees"
-          TopLeft="1405.63636363636,158.227272727273" />
-        <NodeLayout
-          Size="205,42"
-          Id="Package\Load data from SRC to STG\Populate STG EmployeeTerritories"
-          TopLeft="1136.13636363636,260.227272727273" />
-        <NodeLayout
-          Size="192,42"
-          Id="Package\Load data from SRC to STG\Load from SRC Region"
-          TopLeft="612.636363636364,158.227272727273" />
-        <NodeLayout
-          Size="197,42"
-          Id="Package\Load data from SRC to STG\Populate STG Suppliers"
-          TopLeft="1141.13636363636,512.227272727272" />
-        <NodeLayout
-          Size="212,42"
-          Id="Package\Load data from SRC to STG\Load from SRC EmployeeTerritories"
-          TopLeft="1132.63636363636,158.227272727273" />
-        <NodeLayout
-          Size="204,42"
-          Id="Package\Load data from SRC to STG\Populate STG Customers"
-          TopLeft="344.636363636364,260.227272727273" />
-        <NodeLayout
-          Size="211,42"
-          Id="Package\Load data from SRC to STG\Load from SRC Customers"
-          TopLeft="341.136363636364,158.227272727273" />
-        <NodeLayout
-          Size="201,42"
-          Id="Package\Load data from SRC to STG\Load from SRC Products"
-          TopLeft="876.136363636364,410.227272727272" />
-        <NodeLayout
-          Size="213,42"
-          Id="Package\Load data from SRC to STG\Populate STG OrderDetails"
-          TopLeft="599.136363636364,512.227272727273" />
-        <NodeLayout
-          Size="194,42"
-          Id="Package\Load data from SRC to STG\Populate STG Products"
-          TopLeft="879.636363636364,512.227272727272" />
-        <NodeLayout
-          Size="207,42"
-          Id="Package\Load data from SRC to STG\Load from SRC Territories"
-          TopLeft="865.136363636364,158.227272727273" />
-        <NodeLayout
-          Size="201,42"
-          Id="Package\Load data from SRC to STG\Load from SRC Shippers"
-          TopLeft="82.1363636363635,410.227272727272" />
-        <NodeLayout
-          Size="201,42"
-          Id="Package\Load data from SRC to STG\Populate STG Territories"
-          TopLeft="868.136363636364,260.227272727273" />
-        <NodeLayout
-          Size="191,42"
-          Id="Package\Load data from SRC to STG\Load from SRC Orders"
-          TopLeft="344.136363636364,410.227272727272" />
-        <NodeLayout
-          Size="185,42"
-          Id="Package\Load data from SRC to STG\Populate STG Orders"
-          TopLeft="347.136363636364,512.227272727273" />
-        <NodeLayout
-          Size="219,42"
-          Id="Package\Load data from SRC to STG\Load from SRC OrderDetails"
-          TopLeft="596.136363636364,410.227272727272" />
-        <NodeLayout
-          Size="186,42"
-          Id="Package\Load data from SRC to STG\Populate STG Region"
-          TopLeft="615.636363636364,260.227272727273" />
-        <NodeLayout
-          Size="205,42"
-          Id="Package\Load data from SRC to STG\Populate STG Employees"
-          TopLeft="1409.13636363636,260.227272727273" />
-        <NodeLayout
-          Size="194,42"
-          Id="Package\Load data from SRC to STG\Populate STG Shippers"
-          TopLeft="85.6363636363635,512.227272727273" />
-        <NodeLayout
-          Size="204,42"
-          Id="Package\Load data from SRC to STG\Populate STG Categories"
-          TopLeft="72.6363636363635,260.227272727273" />
-        <NodeLayout
-          Size="203,42"
-          Id="Package\Load data from SRC to STG\Load from SRC Suppliers"
-          TopLeft="1138.13636363636,410.227272727272" />
-        <NodeLayout
-          Size="211,42"
-          Id="Package\Load data from SRC to STG\Load from SRC Categories"
-          TopLeft="69.1363636363635,158.227272727273" />
+        <EdgeLayout
+          Id="Package\Load data from SRC to STG.Paths[OLE DB Source Output9]"
+          TopLeft="976.636363636364,452.227272727272">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load data from SRC to STG.Paths[OLE DB Source Output8]"
+          TopLeft="705.636363636364,452.227272727272">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load data from SRC to STG.Paths[OLE DB Source Output7]"
+          TopLeft="439.636363636364,452.227272727272">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Load data from SRC to STG.Paths[OLE DB Source Output6]"
           TopLeft="182.636363636364,452.227272727272">
@@ -5020,94 +5108,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load data from SRC to STG.Paths[OLE DB Source Output10]"
-          TopLeft="1239.63636363636,452.227272727272">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load data from SRC to STG.Paths[OLE DB Source Output9]"
-          TopLeft="976.636363636364,452.227272727272">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load data from SRC to STG.Paths[OLE DB Source Output8]"
-          TopLeft="705.636363636364,452.227272727272">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load data from SRC to STG.Paths[OLE DB Source Output7]"
-          TopLeft="439.636363636364,452.227272727272">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -5125,7 +5125,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Populate STG EmployeeTerritories">
+    design-time-name="Package\Load data from SRC to STG\Populate STG Shippers">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5151,7 +5151,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Populate STG Suppliers">
+    design-time-name="Package\Load data from SRC to STG\Populate STG Territories">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5177,7 +5177,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Populate STG Customers">
+    design-time-name="Package\Load data from SRC to STG\Populate STG Suppliers">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5216,98 +5216,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Populate STG OrderDetails">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Populate STG Products">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Load from SRC Territories">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Load from SRC Shippers">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Populate STG Territories">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Load from SRC Orders">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Populate STG Orders">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Load from SRC OrderDetails">
+    design-time-name="Package\Load data from SRC to STG\Populate STG Customers">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5333,20 +5242,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Populate STG Employees">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load data from SRC to STG\Populate STG Shippers">
+    design-time-name="Package\Load data from SRC to STG\Populate STG OrderDetails">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5360,6 +5256,97 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load data from SRC to STG\Populate STG Categories">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load data from SRC to STG\Populate STG Products">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load data from SRC to STG\Populate STG Employees">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load data from SRC to STG\Load from SRC Shippers">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load data from SRC to STG\Load from SRC Territories">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load data from SRC to STG\Load from SRC OrderDetails">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load data from SRC to STG\Populate STG Orders">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load data from SRC to STG\Load from SRC Orders">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5386,6 +5373,19 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load data from SRC to STG\Load from SRC Categories">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load data from SRC to STG\Populate STG EmployeeTerritories">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

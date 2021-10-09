@@ -5,6 +5,6 @@
   DTS:CreationName="ADO.NET:OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Provider=MSOLEDBSQL.1;Integrated Security=SSPI;" />
+      DTS:ConnectionString="Initial Catalog=NorthwindDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>
