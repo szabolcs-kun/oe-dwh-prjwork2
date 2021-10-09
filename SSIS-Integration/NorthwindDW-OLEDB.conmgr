@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="NorthwindDW-OLEDB"
+  DTS:ObjectName="NorthwindDW-ADONET-OLEDB"
   DTS:DTSID="{D5E93258-CC3A-4312-9306-AC48F3C1652D}"
   DTS:CreationName="ADO.NET:OLEDB">
   <DTS:ObjectData>
