@@ -61,5 +61,6 @@
     <None Include="CreateStagingLayer.sql" />
     <None Include="InitNorthwindDWDatabase.sql" />
     <None Include="TruncateStagingTables.sql" />
+    <None Include="DateDimStoredProcedure.sql" />
   </ItemGroup>
 </Project>
