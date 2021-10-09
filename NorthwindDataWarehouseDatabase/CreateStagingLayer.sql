@@ -23,8 +23,6 @@ CREATE TABLE [STG]."Employees" (
 	"Country" nvarchar (15) NULL ,
 	"HomePhone" nvarchar (24) NULL ,
 	"Extension" nvarchar (4) NULL ,
-	"Photo" nvarchar(30) NULL ,
-	"Notes" nvarchar(30) NULL ,
 	"ReportsTo" nvarchar(30) NULL ,
 	"PhotoPath" nvarchar (255) NULL
 )
@@ -32,9 +30,7 @@ GO
 
 CREATE TABLE [STG]."Categories" (
 	"CategoryID" nvarchar(30) NOT NULL ,
-	"CategoryName" nvarchar (15) NOT NULL ,
-	"Description" nvarchar(30) NULL ,
-	"Picture" nvarchar(30) NULL
+	"CategoryName" nvarchar (15) NOT NULL
 )
 GO
 
