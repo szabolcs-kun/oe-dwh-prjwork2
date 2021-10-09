@@ -1,0 +1,297 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="10/9/2021 4:56:12 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-SKDHPAF"
+  DTS:CreatorName="DESKTOP-SKDHPAF\kunsz"
+  DTS:DTSID="{B9EFD2D2-8225-4D94-91BA-DFCD56534BD8}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.170"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="TransformStaging"
+  DTS:PackageType="5"
+  DTS:VersionBuild="26"
+  DTS:VersionGUID="{A6789664-DBA5-4AAC-A4DC-2B5B85735812}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{0BEB7C0D-B253-48E3-B534-1E84AF74FDBC}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="stgSchema">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{F6DF95A5-CDB1-445C-A665-5F7A0CF0633D}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="stgTable">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{70872A3C-57BC-4552-890A-995D78300612}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="updateNullsInStgTables">
+      <DTS:VariableValue
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Replace NULL values in staging tables"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Replace NULL values in staging tables"
+      DTS:DTSID="{EC3B6E7D-17CE-4A8B-9A27-825B70D1D68B}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Replace NULL values in staging tables">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Replace NULL values in staging tables\Iterate through STG schema tables"
+          DTS:CreationName="STOCK:FOREACHLOOP"
+          DTS:Description="Iterate through STG schema tables"
+          DTS:DTSID="{943B576B-A87F-4928-A238-C3812D3281E6}"
+          DTS:ExecutableType="STOCK:FOREACHLOOP"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Iterate through STG schema tables">
+          <DTS:ForEachEnumerator
+            DTS:CreationName="Microsoft.ForEachSchemaRowsetEnumerator"
+            DTS:DTSID="{633E3363-1B14-4B21-AB1D-F3B512592542}"
+            DTS:ObjectName="{633E3363-1B14-4B21-AB1D-F3B512592542}">
+            <DTS:ObjectData>
+              <FEESchemaRowset
+                Connection="NorthwindDW-OLEDB"
+                Schema="c8b52229-5cf3-11ce-ade5-00aa0044773d">
+                <Restriction
+                  Index="0"
+                  Value="t:NorthwindDW" />
+                <Restriction
+                  Index="1"
+                  Value="t:STG" />
+                <Restriction
+                  Index="2"
+                  Value="t:" />
+                <Restriction
+                  Index="3"
+                  Value="t:TABLE" />
+              </FEESchemaRowset>
+            </DTS:ObjectData>
+          </DTS:ForEachEnumerator>
+          <DTS:Variables>
+            <DTS:Variable
+              DTS:CreationName=""
+              DTS:DTSID="{3E43DFD4-BC9E-4EEC-8BBD-48ED1B855E82}"
+              DTS:IncludeInDebugDump="2345"
+              DTS:Namespace="User"
+              DTS:ObjectName="updateStatement">
+              <DTS:VariableValue
+                DTS:DataType="8"
+                xml:space="preserve"></DTS:VariableValue>
+            </DTS:Variable>
+          </DTS:Variables>
+          <DTS:Executables>
+            <DTS:Executable
+              DTS:refId="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Create update statements to rplace null values in STG tables"
+              DTS:CreationName="Microsoft.ExecuteSQLTask"
+              DTS:Description="Execute SQL Task"
+              DTS:DTSID="{24BD5F40-D3DA-4940-A660-F36C04B854CF}"
+              DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="Create update statements to rplace null values in STG tables"
+              DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+              DTS:ThreadHint="0">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <SQLTask:SqlTaskData
+                  SQLTask:Connection="{9978FA64-EE2D-431C-86A4-29563379DC64}"
+                  SQLTask:SqlStatementSource="SELECT CONCAT('UPDATE [', ? ,'].[', ? , '] SET ', column_name, ' =  &#xA;NULL WHERE ', column_name, ' = ''NULL'';') AS updateSQL &#xA;FROM information_schema.columns WHERE table_name = ?; "
+                  SQLTask:ResultType="ResultSetType_Rowset" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+                  <SQLTask:ResultBinding
+                    SQLTask:ResultName="0"
+                    SQLTask:DtsVariableName="User::updateNullsInStgTables" />
+                  <SQLTask:ParameterBinding
+                    SQLTask:ParameterName="1"
+                    SQLTask:DtsVariableName="User::stgTable"
+                    SQLTask:ParameterDirection="Input"
+                    SQLTask:DataType="130"
+                    SQLTask:ParameterSize="200" />
+                  <SQLTask:ParameterBinding
+                    SQLTask:ParameterName="2"
+                    SQLTask:DtsVariableName="User::stgTable"
+                    SQLTask:ParameterDirection="Input"
+                    SQLTask:DataType="130"
+                    SQLTask:ParameterSize="200" />
+                  <SQLTask:ParameterBinding
+                    SQLTask:ParameterName="0"
+                    SQLTask:DtsVariableName="User::stgSchema"
+                    SQLTask:ParameterDirection="Input"
+                    SQLTask:DataType="130"
+                    SQLTask:ParameterSize="200" />
+                </SQLTask:SqlTaskData>
+              </DTS:ObjectData>
+            </DTS:Executable>
+            <DTS:Executable
+              DTS:refId="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Iterate through update staments"
+              DTS:CreationName="STOCK:FOREACHLOOP"
+              DTS:Description="Iterate through update staments"
+              DTS:DTSID="{67DE206B-3437-49C5-8930-8ACB3A7B81E3}"
+              DTS:ExecutableType="STOCK:FOREACHLOOP"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="Iterate through update staments">
+              <DTS:ForEachEnumerator
+                DTS:CreationName="Microsoft.ForEachADOEnumerator"
+                DTS:DTSID="{10F772E4-2D8E-4240-879E-6E5590DD0BB7}"
+                DTS:ObjectName="{10F772E4-2D8E-4240-879E-6E5590DD0BB7}">
+                <DTS:ObjectData>
+                  <FEEADO
+                    EnumType="EnumerateAllRows"
+                    VarName="User::updateNullsInStgTables" />
+                </DTS:ObjectData>
+              </DTS:ForEachEnumerator>
+              <DTS:Variables />
+              <DTS:Executables>
+                <DTS:Executable
+                  DTS:refId="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Iterate through update staments\Execute update statements"
+                  DTS:CreationName="Microsoft.ExecuteSQLTask"
+                  DTS:Description="Execute SQL Task"
+                  DTS:DTSID="{3D8B945D-1C91-4089-88CC-BCEDB1F9F183}"
+                  DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+                  DTS:LocaleID="-1"
+                  DTS:ObjectName="Execute update statements"
+                  DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+                  DTS:ThreadHint="0">
+                  <DTS:Variables />
+                  <DTS:ObjectData>
+                    <SQLTask:SqlTaskData
+                      SQLTask:Connection="{9978FA64-EE2D-431C-86A4-29563379DC64}"
+                      SQLTask:SqlStmtSourceType="Variable"
+                      SQLTask:SqlStatementSource="User::updateStatement" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+                  </DTS:ObjectData>
+                </DTS:Executable>
+              </DTS:Executables>
+              <DTS:ForEachVariableMappings>
+                <DTS:ForEachVariableMapping
+                  DTS:CreationName=""
+                  DTS:DTSID="{B57E6F3F-8643-46AC-A73A-D901F17A666B}"
+                  DTS:ObjectName="{B57E6F3F-8643-46AC-A73A-D901F17A666B}"
+                  DTS:ValueIndex="0"
+                  DTS:VariableName="User::updateStatement" />
+              </DTS:ForEachVariableMappings>
+            </DTS:Executable>
+          </DTS:Executables>
+          <DTS:PrecedenceConstraints>
+            <DTS:PrecedenceConstraint
+              DTS:refId="Package\Replace NULL values in staging tables\Iterate through STG schema tables.PrecedenceConstraints[Constraint]"
+              DTS:CreationName=""
+              DTS:DTSID="{91229F8C-E4F6-4B73-978E-3CDA9CFEFA12}"
+              DTS:From="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Create update statements to rplace null values in STG tables"
+              DTS:LogicalAnd="True"
+              DTS:ObjectName="Constraint"
+              DTS:To="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Iterate through update staments" />
+          </DTS:PrecedenceConstraints>
+          <DTS:ForEachVariableMappings>
+            <DTS:ForEachVariableMapping
+              DTS:CreationName=""
+              DTS:DTSID="{FF49B3FF-D463-4D48-BA8E-89F41038AB96}"
+              DTS:ObjectName="{FF49B3FF-D463-4D48-BA8E-89F41038AB96}"
+              DTS:ValueIndex="1"
+              DTS:VariableName="User::stgSchema" />
+            <DTS:ForEachVariableMapping
+              DTS:CreationName=""
+              DTS:DTSID="{5BAA735F-D4C8-48BE-9CEA-3ACC85CC872B}"
+              DTS:ObjectName="{5BAA735F-D4C8-48BE-9CEA-3ACC85CC872B}"
+              DTS:ValueIndex="2"
+              DTS:VariableName="User::stgTable" />
+          </DTS:ForEachVariableMappings>
+        </DTS:Executable>
+      </DTS:Executables>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="375,42"
+          Id="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Create update statements to rplace null values in STG tables"
+          TopLeft="5.5,5.5" />
+        <NodeLayout
+          Size="212,42"
+          Id="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Iterate through update staments\Execute update statements"
+          TopLeft="5.5,5.5" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="223,102"
+          Size="223,146"
+          Id="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Iterate through update staments"
+          TopLeft="81.5,107.5" />
+        <EdgeLayout
+          Id="Package\Replace NULL values in staging tables\Iterate through STG schema tables.PrecedenceConstraints[Constraint]"
+          TopLeft="193,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="386,308"
+          Size="386,352"
+          Id="Package\Replace NULL values in staging tables\Iterate through STG schema tables"
+          TopLeft="5.50000000000006,5.5" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="397,412"
+          Size="397,456"
+          Id="Package\Replace NULL values in staging tables"
+          TopLeft="202.5,117.5" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
