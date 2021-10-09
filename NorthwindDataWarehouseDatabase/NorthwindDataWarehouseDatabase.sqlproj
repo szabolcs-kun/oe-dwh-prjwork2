@@ -62,5 +62,7 @@
     <None Include="InitNorthwindDWDatabase.sql" />
     <None Include="TruncateStagingTables.sql" />
     <None Include="DateDimStoredProcedure.sql" />
+    <None Include="CreateMasterLayer.sql" />
+    <None Include="CreateReportingLayer.sql" />
   </ItemGroup>
 </Project>
