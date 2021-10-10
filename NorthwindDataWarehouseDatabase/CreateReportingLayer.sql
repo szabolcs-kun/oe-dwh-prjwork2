@@ -12,7 +12,7 @@ CREATE TABLE [REP].[DimShipMethod] (
 	[DimShipMethodID] int IDENTITY (1, 1) NOT NULL,
 	[SRC_ID_Shippers] int NOT NULL,
 	[CompanyName] nvarchar (40) NOT NULL,
-	CONSTRAINT "PK_DimShipMethod" PRIMARY KEY  CLUSTERED 
+	CONSTRAINT "PK_REP_DimShipMethod" PRIMARY KEY  CLUSTERED 
 	(
 		[DimShipMethodID] ASC
 	)
@@ -28,7 +28,7 @@ CREATE TABLE [REP].[DimCustomer] (
 	[City] nvarchar (15) NULL,
 	[Region] nvarchar (15) NULL,
 	[Country] nvarchar (15) NULL,
-	CONSTRAINT "PK_DimCustomer" PRIMARY KEY  CLUSTERED 
+	CONSTRAINT "PK_REP_DimCustomer" PRIMARY KEY  CLUSTERED 
 	(
 		[DimCustomerID] ASC
 	)
@@ -41,8 +41,8 @@ CREATE TABLE [REP].[DimEmployee] (
 	[LastName] nvarchar (20) NOT NULL,
 	[FirstName] nvarchar (10) NOT NULL,
 	[Title] nvarchar (30) NULL,
-	[BirthDate] datetime NULL,
-	[HireDate] datetime NULL,
+	[BirthDate] date NULL,
+	[HireDate] date NULL,
 	[City] nvarchar (15) NULL,
 	[Region] nvarchar (15) NULL,
 	[Country] nvarchar (15) NULL,
@@ -50,7 +50,7 @@ CREATE TABLE [REP].[DimEmployee] (
 	[TerritoryDescription] nvarchar (50) NOT NULL,
 	[SRC_ID_Region] int NOT NULL,
 	[RegionRegionDescription] nvarchar (50) NOT NULL,
-	CONSTRAINT "PK_DimEmployee" PRIMARY KEY  CLUSTERED 
+	CONSTRAINT "PK_REP_DimEmployee" PRIMARY KEY  CLUSTERED 
 	(
 		[DimEmployeeID] ASC
 	)
@@ -59,7 +59,7 @@ GO
 
 CREATE TABLE [REP].[DimProduct] (
 	[DimProductID] int IDENTITY (1, 1) NOT NULL,
-	[SRC_ID_Products] nvarchar(30) NOT NULL,
+	[SRC_ID_Products] int NOT NULL,
 	[ProductName] nvarchar (40) NOT NULL,
 	[QuantityPerUnit] nvarchar (20) NULL,
 	[Discontinued] bit NOT NULL,
@@ -72,8 +72,10 @@ CREATE TABLE [REP].[DimProduct] (
 	[SuppliersCity] nvarchar (15) NULL,
 	[SuppliersRegion] nvarchar (15) NULL,
 	[SuppliersCountry] nvarchar (15) NULL,
+	[ValidFrom] date null,
+	[ValidTo] date null
 
-	CONSTRAINT "PK_DimProduct" PRIMARY KEY  CLUSTERED 
+	CONSTRAINT "PK_REP_DimProduct" PRIMARY KEY  CLUSTERED 
 	(
 		[DimProductID] ASC
 	)
@@ -87,7 +89,7 @@ CREATE TABLE [REP].[DimDate] (
 	[Month] int NOT NULL,
 	[Day] int NOT NULL,
 	[Quarter] int NOT NULL,
-	CONSTRAINT "PK_DimDate" PRIMARY KEY  CLUSTERED 
+	CONSTRAINT "PK_REP_DimDate" PRIMARY KEY  CLUSTERED 
 	(
 		[DimDateID]
 	)
@@ -100,7 +102,6 @@ CREATE TABLE [REP].[FactSalesOrder] (
 	[OrderDate] date NULL,
 	[RequiredDate] date NULL,
 	[ShippedDate] date NULL,
-	[SRC_ID_OrderDetails] int NOT NULL,
 	[OrderDetailsUnitPrice] money NOT NULL,
 	[OrderDetailsQuantity] smallint NOT NULL,
 	[OrderDetailsDiscount] real NOT NULL,
@@ -115,48 +116,50 @@ CREATE TABLE [REP].[FactSalesOrder] (
 	[OrderDateID] int NOT NULL,
 	[RequiredDateID] int NOT NULL,
 	[ShippedDateID] int NOT NULL,
+	[ValidFrom] date null,
+	[ValidTo] date null,
 
-	CONSTRAINT "PK_FactSalesOrder" PRIMARY KEY  CLUSTERED 
+	CONSTRAINT "PK_REP_FactSalesOrder" PRIMARY KEY  CLUSTERED 
 	(
 		[FactSalesOrderID] ASC
 	),
-	CONSTRAINT "FK_FactSalesOrder_DimProduct" FOREIGN KEY 
+	CONSTRAINT "FK_REP_FactSalesOrder_DimProduct" FOREIGN KEY 
 	(
 		"DimProductID"
 	) REFERENCES [REP].[DimProduct] (
 		"DimProductID"
 	),
-	CONSTRAINT "FK_FactSalesOrder_DimEmployee" FOREIGN KEY 
+	CONSTRAINT "FK_REP_FactSalesOrder_DimEmployee" FOREIGN KEY 
 	(
 		"DimEmployeeID"
 	) REFERENCES [REP].[DimEmployee] (
 		"DimEmployeeID"
 	),
-	CONSTRAINT "FK_FactSalesOrder_DimCustomer" FOREIGN KEY 
+	CONSTRAINT "FK_REP_FactSalesOrder_DimCustomer" FOREIGN KEY 
 	(
 		"DimCustomerID"
 	) REFERENCES [REP].[DimCustomer] (
 		"DimCustomerID"
 	),
-	CONSTRAINT "FK_FactSalesOrder_DimShipMethod" FOREIGN KEY 
+	CONSTRAINT "FK_REP_FactSalesOrder_DimShipMethod" FOREIGN KEY 
 	(
 		"DimShipMethodID"
 	) REFERENCES [REP].[DimShipMethod] (
 		"DimShipMethodID"
 	),
-	CONSTRAINT "FK_FactSalesOrder_DimDate_OrderDate" FOREIGN KEY 
+	CONSTRAINT "FK_REP_FactSalesOrder_DimDate_OrderDate" FOREIGN KEY 
 	(
 		"OrderDateID"
 	) REFERENCES [REP].[DimDate] (
 		"DimDateID"
 	),
-	CONSTRAINT "FK_FactSalesOrder_DimDate_RequiredDate" FOREIGN KEY 
+	CONSTRAINT "FK_REP_FactSalesOrder_DimDate_RequiredDate" FOREIGN KEY 
 	(
 		"RequiredDateID"
 	) REFERENCES [REP].[DimDate] (
 		"DimDateID"
 	),
-		CONSTRAINT "FK_FactSalesOrder_DimDate_ShippedDate" FOREIGN KEY 
+		CONSTRAINT "FK_REP_FactSalesOrder_DimDate_ShippedDate" FOREIGN KEY 
 	(
 		"ShippedDateID"
 	) REFERENCES [REP].[DimDate] (

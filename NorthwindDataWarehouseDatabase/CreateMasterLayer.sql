@@ -95,7 +95,7 @@ CREATE TABLE [MSTR].[Orders](
 	[OrderDate] date NULL,
 	[RequiredDate] date NULL,
 	[ShippedDate] date NULL,
-	[ShipVia] int NULL,
+	[SRC_ID_Shippers] int NULL,
 	[Freight] money NULL,
 	[ShipName] nvarchar (40) NULL,
 	[ShipAddress] nvarchar (60) NULL,
