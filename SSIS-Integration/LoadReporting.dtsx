@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="37"
-  DTS:VersionGUID="{A9156CE8-2276-4831-9D3A-62178613343F}">
+  DTS:VersionBuild="48"
+  DTS:VersionGUID="{909D5FAA-6C97-4F1E-90C9-971E4225CE9C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -6870,6 +6870,12 @@
                           cachedName="ValidFrom"
                           externalMetadataColumnId="Package\Load REP layer\Load Fact\Insert REP FactSalesOrder.Inputs[OLE DB Destination Input].ExternalColumns[ValidFrom]"
                           lineageId="Package\Load REP layer\Load Fact\Derived Column REP FactSalesOrder ValidFrom.Outputs[Derived Column Output].Columns[ValidFrom]" />
+                        <inputColumn
+                          refId="Package\Load REP layer\Load Fact\Insert REP FactSalesOrder.Inputs[OLE DB Destination Input].Columns[Freight]"
+                          cachedDataType="cy"
+                          cachedName="Freight"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\Insert REP FactSalesOrder.Inputs[OLE DB Destination Input].ExternalColumns[Freight]"
+                          lineageId="Package\Load REP layer\Load Fact\Union All REP FactSalesOrder.Outputs[Union All Output 1].Columns[Freight]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -6957,6 +6963,10 @@
                           refId="Package\Load REP layer\Load Fact\Insert REP FactSalesOrder.Inputs[OLE DB Destination Input].ExternalColumns[ValidTo]"
                           dataType="dbDate"
                           name="ValidTo" />
+                        <externalMetadataColumn
+                          refId="Package\Load REP layer\Load Fact\Insert REP FactSalesOrder.Inputs[OLE DB Destination Input].ExternalColumns[Freight]"
+                          dataType="cy"
+                          name="Freight" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
@@ -7042,7 +7052,7 @@ where [refTable].[SRC_ID_Customers] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Load REP layer\Load Fact\991:invalid};</property>
+                      name="ParameterMap">#{Package\Load REP layer\Load Fact\1126:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -7201,7 +7211,7 @@ where [refTable].[SRC_ID_Date] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Load REP layer\Load Fact\288:invalid};</property>
+                      name="ParameterMap">#{Package\Load REP layer\Load Fact\1127:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -7359,7 +7369,7 @@ where [refTable].[SRC_ID_Date] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Load REP layer\Load Fact\289:invalid};</property>
+                      name="ParameterMap">#{Package\Load REP layer\Load Fact\1128:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -7517,7 +7527,7 @@ where [refTable].[SRC_ID_Date] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Load REP layer\Load Fact\290:invalid};</property>
+                      name="ParameterMap">#{Package\Load REP layer\Load Fact\1129:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -7675,7 +7685,7 @@ where [refTable].[SRC_ID_Employees] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Load REP layer\Load Fact\Union All REP FactSalesOrder.Inputs[Union All Input 2].Columns[ShipName]};</property>
+                      name="ParameterMap">#{Package\Load REP layer\Load Fact\1130:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -7833,7 +7843,7 @@ where [refTable].[SRC_ID_Products] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Load REP layer\Load Fact\993:invalid};</property>
+                      name="ParameterMap">#{Package\Load REP layer\Load Fact\1131:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -7991,7 +8001,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Load REP layer\Load Fact\291:invalid};</property>
+                      name="ParameterMap">#{Package\Load REP layer\Load Fact\1132:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -8857,7 +8867,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                       description="The SQL command to be executed."
                       expressionType="Notify"
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [REP].[FactSalesOrder] SET [DimCustomerID] = ?,[DimEmployeeID] = ?,[DimProductID] = ?,[DimShipMethodID] = ?,[OrderDate] = ?,[OrderDateID] = ?,[OrderDetailsDiscount] = ?,[OrderDetailsQuantity] = ?,[OrderDetailsUnitPrice] = ?,[ProductsReorderLevel] = ?,[ProductsUnitsInStock] = ?,[ProductsUnitsOnOrder] = ?,[RequiredDate] = ?,[RequiredDateID] = ?,[ShippedDate] = ?,[ShippedDateID] = ? WHERE [SRC_ID_Orders] = ? AND [SRC_ID_Products] = ?</property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [REP].[FactSalesOrder] SET [DimCustomerID] = ?,[DimEmployeeID] = ?,[DimProductID] = ?,[DimShipMethodID] = ?,[Freight] = ?,[OrderDate] = ?,[OrderDateID] = ?,[OrderDetailsDiscount] = ?,[OrderDetailsQuantity] = ?,[OrderDetailsUnitPrice] = ?,[ProductsReorderLevel] = ?,[ProductsUnitsInStock] = ?,[ProductsUnitsOnOrder] = ?,[RequiredDate] = ?,[RequiredDateID] = ?,[ShippedDate] = ?,[ShippedDateID] = ? WHERE [SRC_ID_Orders] = ? AND [SRC_ID_Products] = ?</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -8904,89 +8914,95 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                           externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[DimShipMethodID]" />
                         <inputColumn
+                          refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[Freight]"
+                          cachedDataType="cy"
+                          cachedName="Freight"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                          lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[Freight]" />
+                        <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[OrderDate]"
                           cachedDataType="dbDate"
                           cachedName="OrderDate"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[OrderDate]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[OrderDateId]"
                           cachedDataType="i4"
                           cachedName="OrderDateId"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[OrderDateId]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[Discount]"
                           cachedDataType="r4"
                           cachedName="Discount"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[Discount]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[Quantity]"
                           cachedDataType="i2"
                           cachedName="Quantity"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_8]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[Quantity]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[UnitPrice]"
                           cachedDataType="cy"
                           cachedName="UnitPrice"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_8]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_9]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[UnitPrice]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[ProductsReorderLevel]"
                           cachedDataType="i2"
                           cachedName="ProductsReorderLevel"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_9]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_10]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[ProductsReorderLevel]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[ProductsUnitsInStock]"
                           cachedDataType="i2"
                           cachedName="ProductsUnitsInStock"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_10]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_11]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[ProductsUnitsInStock]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[ProductsUnitsOnOrder]"
                           cachedDataType="i2"
                           cachedName="ProductsUnitsOnOrder"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_11]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_12]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[ProductsUnitsOnOrder]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[RequiredDate]"
                           cachedDataType="dbDate"
                           cachedName="RequiredDate"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_12]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_13]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[RequiredDate]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[RequiredDateId]"
                           cachedDataType="i4"
                           cachedName="RequiredDateId"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_13]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_14]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[RequiredDateId]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[ShippedDate]"
                           cachedDataType="dbDate"
                           cachedName="ShippedDate"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_14]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_15]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[ShippedDate]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[ShippedDateId]"
                           cachedDataType="i4"
                           cachedName="ShippedDateId"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_15]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_16]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[ShippedDateId]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[SRC_ID_Orders]"
                           cachedDataType="i4"
                           cachedName="SRC_ID_Orders"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_16]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_17]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[SRC_ID_Orders]" />
                         <inputColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].Columns[SRC_ID_Products]"
                           cachedDataType="i4"
                           cachedName="SRC_ID_Products"
                           cachedSortKeyPosition="1"
-                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_17]"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_18]"
                           lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[SRC_ID_Products]" />
                       </inputColumns>
                       <externalMetadataColumns
@@ -9037,19 +9053,8 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
-                          dataType="dbDate"
+                          dataType="cy"
                           name="Param_4">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                              name="DBParamInfoFlags">65</property>
-                          </properties>
-                        </externalMetadataColumn>
-                        <externalMetadataColumn
-                          refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
-                          dataType="i4"
-                          name="Param_5">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -9058,8 +9063,19 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                           </properties>
                         </externalMetadataColumn>
                         <externalMetadataColumn
+                          refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                          dataType="dbDate"
+                          name="Param_5">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                              name="DBParamInfoFlags">65</property>
+                          </properties>
+                        </externalMetadataColumn>
+                        <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
-                          dataType="r4"
+                          dataType="i4"
                           name="Param_6">
                           <properties>
                             <property
@@ -9070,7 +9086,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
-                          dataType="i2"
+                          dataType="r4"
                           name="Param_7">
                           <properties>
                             <property
@@ -9081,7 +9097,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_8]"
-                          dataType="cy"
+                          dataType="i2"
                           name="Param_8">
                           <properties>
                             <property
@@ -9092,7 +9108,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_9]"
-                          dataType="i2"
+                          dataType="cy"
                           name="Param_9">
                           <properties>
                             <property
@@ -9125,46 +9141,46 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_12]"
-                          dataType="dbDate"
+                          dataType="i2"
                           name="Param_12">
                           <properties>
                             <property
                               dataType="System.Int32"
                               description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                              name="DBParamInfoFlags">65</property>
+                              name="DBParamInfoFlags">81</property>
                           </properties>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_13]"
-                          dataType="i4"
+                          dataType="dbDate"
                           name="Param_13">
                           <properties>
                             <property
                               dataType="System.Int32"
                               description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                              name="DBParamInfoFlags">81</property>
+                              name="DBParamInfoFlags">65</property>
                           </properties>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_14]"
-                          dataType="dbDate"
+                          dataType="i4"
                           name="Param_14">
                           <properties>
                             <property
                               dataType="System.Int32"
                               description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                              name="DBParamInfoFlags">65</property>
+                              name="DBParamInfoFlags">81</property>
                           </properties>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_15]"
-                          dataType="i4"
+                          dataType="dbDate"
                           name="Param_15">
                           <properties>
                             <property
                               dataType="System.Int32"
                               description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                              name="DBParamInfoFlags">81</property>
+                              name="DBParamInfoFlags">65</property>
                           </properties>
                         </externalMetadataColumn>
                         <externalMetadataColumn
@@ -9182,6 +9198,17 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                           refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_17]"
                           dataType="i4"
                           name="Param_17">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                              name="DBParamInfoFlags">81</property>
+                          </properties>
+                        </externalMetadataColumn>
+                        <externalMetadataColumn
+                          refId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1.Inputs[OLE DB Command Input].ExternalColumns[Param_18]"
+                          dataType="i4"
+                          name="Param_18">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -10362,6 +10389,80 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                   </outputs>
                 </component>
                 <component
+                  refId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Replace null values in Orders ShippedDate column"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Inputs[Derived Column Input].Columns[ShippedDate]"
+                          cachedDataType="dbDate"
+                          cachedName="ShippedDate"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Load REP layer\Load Fact\Read MSTR Orders.Outputs[ADO NET Source Output].Columns[ShippedDate]"
+                          truncationRowDisposition="FailComponent"
+                          usageType="readWrite">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[ISNULL](#{Package\Load REP layer\Load Fact\Read MSTR Orders.Outputs[ADO NET Source Output].Columns[ShippedDate]}) ? (DT_DBDATE)"9999-12-31" : #{Package\Load REP layer\Load Fact\Read MSTR Orders.Outputs[ADO NET Source Output].Columns[ShippedDate]}</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">ISNULL(ShippedDate) ? (DT_DBDATE)"9999-12-31" : ShippedDate</property>
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Inputs[Derived Column Input]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
                   refId="Package\Load REP layer\Load Fact\Slowly Changing Dimension REP FactSalesOrder"
                   componentClassID="Microsoft.SCD"
                   contactInfo="Slowly Changing Dimension;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
@@ -10373,7 +10474,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                       dataType="System.String"
                       description="Specifies the SELECT statement used to create a schema rowset."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [DimCustomerID], [DimEmployeeID], [DimProductID], [DimShipMethodID], [OrderDate], [OrderDateID], [OrderDetailsDiscount], [OrderDetailsQuantity], [OrderDetailsUnitPrice], [ProductsReorderLevel], [ProductsUnitsInStock], [ProductsUnitsOnOrder], [RequiredDate], [RequiredDateID], [ShippedDate], [ShippedDateID], [SRC_ID_Orders], [SRC_ID_Products],[ValidFrom],[ValidTo] FROM [REP].[FactSalesOrder]</property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [DimCustomerID], [DimEmployeeID], [DimProductID], [DimShipMethodID], [Freight], [OrderDate], [OrderDateID], [OrderDetailsDiscount], [OrderDetailsQuantity], [OrderDetailsUnitPrice], [ProductsReorderLevel], [ProductsUnitsInStock], [ProductsUnitsOnOrder], [RequiredDate], [RequiredDateID], [ShippedDate], [ShippedDateID], [SRC_ID_Orders], [SRC_ID_Products],[ValidFrom],[ValidTo] FROM [REP].[FactSalesOrder]</property>
                     <property
                       dataType="System.String"
                       description="Specifies the WHERE clause in the SELECT statement that selects the current row among rows with identical business keys."
@@ -10471,6 +10572,19 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                               dataType="System.Int32"
                               name="ColumnType"
                               typeConverter="ColumnType">4</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Load REP layer\Load Fact\Slowly Changing Dimension REP FactSalesOrder.Inputs[Slowly Changing Dimension Input].Columns[Freight]"
+                          cachedDataType="cy"
+                          cachedName="Freight"
+                          externalMetadataColumnId="Package\Load REP layer\Load Fact\Slowly Changing Dimension REP FactSalesOrder.Inputs[Slowly Changing Dimension Input].ExternalColumns[Freight]"
+                          lineageId="Package\Load REP layer\Load Fact\Merge Orders and Products.Outputs[Merge Join Output].Columns[Freight]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              name="ColumnType"
+                              typeConverter="ColumnType">3</property>
                           </properties>
                         </inputColumn>
                         <inputColumn
@@ -10675,6 +10789,10 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                           refId="Package\Load REP layer\Load Fact\Slowly Changing Dimension REP FactSalesOrder.Inputs[Slowly Changing Dimension Input].ExternalColumns[DimShipMethodID]"
                           dataType="i4"
                           name="DimShipMethodID" />
+                        <externalMetadataColumn
+                          refId="Package\Load REP layer\Load Fact\Slowly Changing Dimension REP FactSalesOrder.Inputs[Slowly Changing Dimension Input].ExternalColumns[Freight]"
+                          dataType="cy"
+                          name="Freight" />
                         <externalMetadataColumn
                           refId="Package\Load REP layer\Load Fact\Slowly Changing Dimension REP FactSalesOrder.Inputs[Slowly Changing Dimension Input].ExternalColumns[OrderDate]"
                           dataType="dbDate"
@@ -13359,14 +13477,14 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
               <paths>
                 <path
                   refId="Package\Load REP layer\Load Fact.Paths[ADO NET Source Output]"
-                  endId="Package\Load REP layer\Load Fact\Lookup REP DimCustomer.Inputs[Lookup Input]"
-                  name="ADO NET Source Output"
-                  startId="Package\Load REP layer\Load Fact\Read MSTR Orders.Outputs[ADO NET Source Output]" />
-                <path
-                  refId="Package\Load REP layer\Load Fact.Paths[ADO NET Source Output1]"
                   endId="Package\Load REP layer\Load Fact\Sort Products ProductID.Inputs[Sort Input]"
                   name="ADO NET Source Output"
                   startId="Package\Load REP layer\Load Fact\Read MSTR Products.Outputs[ADO NET Source Output]" />
+                <path
+                  refId="Package\Load REP layer\Load Fact.Paths[ADO NET Source Output1]"
+                  endId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Inputs[Derived Column Input]"
+                  name="ADO NET Source Output"
+                  startId="Package\Load REP layer\Load Fact\Read MSTR Orders.Outputs[ADO NET Source Output]" />
                 <path
                   refId="Package\Load REP layer\Load Fact.Paths[Changing Attribute Updates Output]"
                   endId="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 2.Inputs[OLE DB Command Input]"
@@ -13383,6 +13501,11 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                   name="Derived Column Output"
                   startId="Package\Load REP layer\Load Fact\Derived Column REP FactSalesOrder ValidTo.Outputs[Derived Column Output]" />
                 <path
+                  refId="Package\Load REP layer\Load Fact.Paths[Derived Column Output2]"
+                  endId="Package\Load REP layer\Load Fact\Lookup REP DimCustomer.Inputs[Lookup Input]"
+                  name="Derived Column Output"
+                  startId="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column.Outputs[Derived Column Output]" />
+                <path
                   refId="Package\Load REP layer\Load Fact.Paths[Historical Attribute Inserts Output]"
                   endId="Package\Load REP layer\Load Fact\Derived Column REP FactSalesOrder ValidTo.Inputs[Derived Column Input]"
                   name="Historical Attribute Inserts Output"
@@ -13393,37 +13516,37 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                   name="Inferred Member Updates Output"
                   startId="Package\Load REP layer\Load Fact\Slowly Changing Dimension REP FactSalesOrder.Outputs[Inferred Member Updates Output]" />
                 <path
+                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output5]"
+                  endId="Package\Load REP layer\Load Fact\Lookup REP DimDate RequiredDate.Inputs[Lookup Input]"
+                  name="Lookup Match Output"
+                  startId="Package\Load REP layer\Load Fact\Lookup REP DimDate OrderDate.Outputs[Lookup Match Output]" />
+                <path
                   refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output6]"
+                  endId="Package\Load REP layer\Load Fact\Lookup REP DimDate OrderDate.Inputs[Lookup Input]"
+                  name="Lookup Match Output"
+                  startId="Package\Load REP layer\Load Fact\Lookup REP DimShipMethod.Outputs[Lookup Match Output]" />
+                <path
+                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output3]"
+                  endId="Package\Load REP layer\Load Fact\Lookup REP DimProduct.Inputs[Lookup Input]"
+                  name="Lookup Match Output"
+                  startId="Package\Load REP layer\Load Fact\Lookup REP DimCustomer.Outputs[Lookup Match Output]" />
+                <path
+                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output2]"
+                  endId="Package\Load REP layer\Load Fact\Lookup REP DimEmployee.Inputs[Lookup Input]"
+                  name="Lookup Match Output"
+                  startId="Package\Load REP layer\Load Fact\Lookup REP DimProduct.Outputs[Lookup Match Output]" />
+                <path
+                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output1]"
+                  endId="Package\Load REP layer\Load Fact\Lookup REP DimDate ShippedDate.Inputs[Lookup Input]"
+                  name="Lookup Match Output"
+                  startId="Package\Load REP layer\Load Fact\Lookup REP DimDate RequiredDate.Outputs[Lookup Match Output]" />
+                <path
+                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output]"
                   endId="Package\Load REP layer\Load Fact\Lookup REP DimShipMethod.Inputs[Lookup Input]"
                   name="Lookup Match Output"
                   startId="Package\Load REP layer\Load Fact\Lookup REP DimEmployee.Outputs[Lookup Match Output]" />
                 <path
                   refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output4]"
-                  endId="Package\Load REP layer\Load Fact\Lookup REP DimDate ShippedDate.Inputs[Lookup Input]"
-                  name="Lookup Match Output"
-                  startId="Package\Load REP layer\Load Fact\Lookup REP DimDate RequiredDate.Outputs[Lookup Match Output]" />
-                <path
-                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output3]"
-                  endId="Package\Load REP layer\Load Fact\Lookup REP DimDate RequiredDate.Inputs[Lookup Input]"
-                  name="Lookup Match Output"
-                  startId="Package\Load REP layer\Load Fact\Lookup REP DimDate OrderDate.Outputs[Lookup Match Output]" />
-                <path
-                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output2]"
-                  endId="Package\Load REP layer\Load Fact\Lookup REP DimDate OrderDate.Inputs[Lookup Input]"
-                  name="Lookup Match Output"
-                  startId="Package\Load REP layer\Load Fact\Lookup REP DimShipMethod.Outputs[Lookup Match Output]" />
-                <path
-                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output1]"
-                  endId="Package\Load REP layer\Load Fact\Lookup REP DimEmployee.Inputs[Lookup Input]"
-                  name="Lookup Match Output"
-                  startId="Package\Load REP layer\Load Fact\Lookup REP DimProduct.Outputs[Lookup Match Output]" />
-                <path
-                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output]"
-                  endId="Package\Load REP layer\Load Fact\Lookup REP DimProduct.Inputs[Lookup Input]"
-                  name="Lookup Match Output"
-                  startId="Package\Load REP layer\Load Fact\Lookup REP DimCustomer.Outputs[Lookup Match Output]" />
-                <path
-                  refId="Package\Load REP layer\Load Fact.Paths[Lookup Match Output5]"
                   endId="Package\Load REP layer\Load Fact\Sort Orders ProductID.Inputs[Sort Input]"
                   name="Lookup Match Output"
                   startId="Package\Load REP layer\Load Fact\Lookup REP DimDate ShippedDate.Outputs[Lookup Match Output]" />
@@ -13497,11 +13620,11 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="164.8,41.6"
+          Size="165,42"
           Id="Package\Check DimDate table\Execute SQL Task"
           TopLeft="5.50000000000001,107.1" />
         <NodeLayout
-          Size="160.8,41.6"
+          Size="161,42"
           Id="Package\Check DimDate table\Is DimDate empty"
           TopLeft="7.50000000000001,5.49999999999995" />
         <EdgeLayout
@@ -13532,31 +13655,31 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
           HeaderHeight="43"
           IsExpanded="True"
           PanelSize="176,204"
-          Size="176,247.2"
+          Size="176,247"
           Id="Package\Check DimDate table"
           TopLeft="595.499976555507,177.100001363754" />
         <NodeLayout
-          Size="158.4,41.6"
+          Size="164,42"
           Id="Package\Load REP layer\Load Dimensions"
-          TopLeft="5.50000000000001,5.49999999999995" />
+          TopLeft="5.5,4.5" />
         <NodeLayout
-          Size="124.8,41.6"
+          Size="128,42"
           Id="Package\Load REP layer\Load Fact"
           TopLeft="22.3,107.1" />
         <EdgeLayout
           Id="Package\Load REP layer.PrecedenceConstraints[Constraint 1]"
-          TopLeft="84.7,47.1">
+          TopLeft="86.9,46.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60.6"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,53.1">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,53.1" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13568,24 +13691,24 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="169.6,204"
-          Size="169.6,247.2"
+          PanelSize="170,204"
+          Size="170,247"
           Id="Package\Load REP layer"
           TopLeft="598.699976555507,484.300001363754" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="683.499976555507,424.300001363754">
+          TopLeft="683.599976555507,424.100001363754">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
+              EndConnector="0,60.2"
               Start="0,0"
-              End="0,52.5000000000001">
+              End="0,52.7">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000001" />
+                    End="0,52.7" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13603,100 +13726,100 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="300,41.6"
+          Size="300,42"
           Id="Package\Load REP layer\Load Dimensions\Slowly Changing Dimension REP DimEmployee"
-          TopLeft="1137.5,513.5" />
+          TopLeft="239.5,515.5" />
         <NodeLayout
-          Size="189.6,41.6"
+          Size="190,42"
           Id="Package\Load REP layer\Load Dimensions\Read MSTR Employees"
-          TopLeft="1192.7,411.9" />
+          TopLeft="294.5,413.5" />
         <NodeLayout
-          Size="268,41.6"
+          Size="268,42"
           Id="Package\Load REP layer\Load Dimensions\OLE DB Command REP DimShipMethod"
-          TopLeft="414.000068048634,1109.10000392596" />
+          TopLeft="2127.5,617.5" />
         <NodeLayout
-          Size="289.6,41.6"
+          Size="290,42"
           Id="Package\Load REP layer\Load Dimensions\Slowly Changing Dimension REP DimProduct"
-          TopLeft="1085.03338565296,837.26667246951" />
+          TopLeft="2592.5,107.5" />
         <NodeLayout
-          Size="256.8,41.6"
+          Size="257,42"
           Id="Package\Load REP layer\Load Dimensions\OLE DB Command REP DimProduct 2"
-          TopLeft="1607.43338565296,938.866672469509" />
+          TopLeft="3259,209.5" />
         <NodeLayout
-          Size="188.8,41.6"
+          Size="189,42"
           Id="Package\Load REP layer\Load Dimensions\Read MSTR Customers"
-          TopLeft="292.1,411.9" />
+          TopLeft="1195,413.5" />
         <NodeLayout
-          Size="248.8,41.6"
+          Size="249,42"
           Id="Package\Load REP layer\Load Dimensions\OLE DB Command REP DimProduct"
-          TopLeft="920.433385652964,1040.46667246951" />
+          TopLeft="2609,311.5" />
         <NodeLayout
-          Size="179.2,41.6"
+          Size="179,42"
           Id="Package\Load REP layer\Load Dimensions\Read MSTR Shippers"
-          TopLeft="387.400068048634,905.900003925958" />
+          TopLeft="2100,413.5" />
         <NodeLayout
-          Size="260,41.6"
+          Size="260,42"
           Id="Package\Load REP layer\Load Dimensions\Insert Destination REP DimShipMethod"
-          TopLeft="93.0000680486338,1109.10000392596" />
+          TopLeft="1806.5,617.5" />
         <NodeLayout
-          Size="298.4,41.6"
+          Size="298,42"
           Id="Package\Load REP layer\Load Dimensions\Slowly Changing Dimension REP DimCustomer"
-          TopLeft="237.3,513.5" />
+          TopLeft="1140.5,515.5" />
         <NodeLayout
-          Size="267.2,41.6"
+          Size="267,42"
           Id="Package\Load REP layer\Load Dimensions\OLE DB Command REP DimEmployee 1"
-          TopLeft="1477.9,615.1" />
+          TopLeft="580,617.5" />
         <NodeLayout
-          Size="179.2,41.6"
+          Size="179,42"
           Id="Package\Load REP layer\Load Dimensions\Read MSTR Products"
-          TopLeft="1140.23338565296,735.66667246951" />
+          TopLeft="2648,5.49999999999955" />
         <NodeLayout
-          Size="308.8,41.6"
+          Size="309,42"
           Id="Package\Load REP layer\Load Dimensions\Slowly Changing Dimension REP DimShipMethod"
-          TopLeft="322.600068048634,1007.50000392596" />
+          TopLeft="2035,515.5" />
         <NodeLayout
-          Size="266.4,41.6"
+          Size="266,42"
           Id="Package\Load REP layer\Load Dimensions\OLE DB Command REP DimCustomer 1"
-          TopLeft="576.3,615.1" />
+          TopLeft="1479.5,617.5" />
         <NodeLayout
-          Size="272,41.6"
+          Size="272,42"
           Id="Package\Load REP layer\Load Dimensions\Derived Column REP DimProduct ValidTo"
-          TopLeft="896.833385652964,938.86667246951" />
+          TopLeft="2926.5,209.5" />
         <NodeLayout
-          Size="256.8,41.6"
+          Size="257,42"
           Id="Package\Load REP layer\Load Dimensions\OLE DB Command REP DimProduct 1"
-          TopLeft="1290.43338565296,938.866672469509" />
+          TopLeft="2609,209.5" />
         <NodeLayout
-          Size="257.6,41.6"
+          Size="258,42"
           Id="Package\Load REP layer\Load Dimensions\OLE DB Command REP DimCustomer"
-          TopLeft="257.7,615.1" />
+          TopLeft="1160.5,617.5" />
         <NodeLayout
-          Size="183.2,41.6"
+          Size="183,42"
           Id="Package\Load REP layer\Load Dimensions\Load REP DimProduct"
-          TopLeft="1138.23338565296,1345.26667246951" />
+          TopLeft="2456,617.5" />
         <NodeLayout
-          Size="259.2,41.6"
+          Size="259,42"
           Id="Package\Load REP layer\Load Dimensions\OLE DB Command REP DimEmployee"
-          TopLeft="1157.9,615.1" />
+          TopLeft="260,617.5" />
         <NodeLayout
-          Size="192,41.6"
+          Size="192,42"
           Id="Package\Load REP layer\Load Dimensions\Load REP DimCustomer"
-          TopLeft="5.5,615.1" />
+          TopLeft="907.5,617.5" />
         <NodeLayout
-          Size="201.6,41.6"
+          Size="202,42"
           Id="Package\Load REP layer\Load Dimensions\Union All REP DimProduct"
-          TopLeft="1129.03338565296,1142.06667246951" />
+          TopLeft="2446.5,413.5" />
         <NodeLayout
-          Size="284.8,41.6"
+          Size="285,42"
           Id="Package\Load REP layer\Load Dimensions\Derived Column REP DimProduct ValidFrom"
-          TopLeft="1087.43338565296,1243.66667246951" />
+          TopLeft="2405,515.5" />
         <NodeLayout
-          Size="193.6,41.6"
+          Size="194,42"
           Id="Package\Load REP layer\Load Dimensions\Load REP DimEmployee"
-          TopLeft="903.7,615.1" />
+          TopLeft="5.5,617.5" />
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Union All Output 1]"
-          TopLeft="1229.83338565296,1183.66667246951">
+          TopLeft="2547.5,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -13718,30 +13841,30 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[OLE DB Command Output]"
-          TopLeft="1044.83338565296,1082.06667246951">
+          TopLeft="2733.5,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="152.733333333333,60"
+              EndConnector="-218.333333333333,60"
               Start="0,0"
-              End="152.733333333333,52.5">
+              End="-218.333333333333,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.7165354330709" />
+                    End="0,31.7170923379175" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.7165354330709"
-                    Point2="0,35.7165354330709"
-                    Point3="4,35.7165354330709" />
+                    Point1="0,31.7170923379175"
+                    Point2="0,35.7170923379175"
+                    Point3="-4,35.7170923379175" />
                   <mssgle:LineSegment
-                    End="148.733333333333,35.7165354330709" />
+                    End="-214.333333333333,35.7170923379175" />
                   <mssgle:CubicBezierSegment
-                    Point1="148.733333333333,35.7165354330709"
-                    Point2="152.733333333333,35.7165354330709"
-                    Point3="152.733333333333,39.7165354330709" />
+                    Point1="-214.333333333333,35.7170923379175"
+                    Point2="-218.333333333333,35.7170923379175"
+                    Point3="-218.333333333333,39.7170923379175" />
                   <mssgle:LineSegment
-                    End="152.733333333333,52.5" />
+                    End="-218.333333333333,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13752,43 +13875,43 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[New Output3]"
-          TopLeft="426.866734715301,1049.10000392596">
+          TopLeft="2139.33333333333,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-203.866666666667,60"
+              EndConnector="-202.833333333333,60.0000000000001"
               Start="0,0"
-              End="-203.866666666667,52.5">
+              End="-202.833333333333,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.1855670103093" />
+                    End="0,20.1854475209273" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,20.1855670103093"
-                    Point2="0,24.1855670103093"
-                    Point3="-4,24.1855670103093" />
+                    Point1="0,20.1854475209273"
+                    Point2="0,24.1854475209273"
+                    Point3="-4,24.1854475209273" />
                   <mssgle:LineSegment
-                    End="-199.866666666667,24.1855670103093" />
+                    End="-198.833333333333,24.1854475209273" />
                   <mssgle:CubicBezierSegment
-                    Point1="-199.866666666667,24.1855670103093"
-                    Point2="-203.866666666667,24.1855670103093"
-                    Point3="-203.866666666667,28.1855670103093" />
+                    Point1="-198.833333333333,24.1854475209273"
+                    Point2="-202.833333333333,24.1854475209273"
+                    Point3="-202.833333333333,28.1854475209273" />
                   <mssgle:LineSegment
-                    End="-203.866666666667,52.5" />
+                    End="-202.833333333333,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-129.024720052083,29.1855670103093,54.1827734375,11.43359375"
+              BoundingBox="-128.508053385417,29.1854475209273,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[New Output2]"
-          TopLeft="1214.5,555.1">
+          TopLeft="316.5,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -13824,235 +13947,235 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[New Output1]"
-          TopLeft="1201.67338565296,878.86667246951">
+          TopLeft="2652.9,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="60.4266666666667,263.2"
+              EndConnector="-73.0666666666666,264"
               Start="0,0"
-              End="60.4266666666667,255.7">
+              End="-73.0666666666666,256.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,138.730191066758" />
+                    End="0,96.2988673730364" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,138.730191066758"
-                    Point2="0,142.730191066758"
-                    Point3="4,142.730191066758" />
+                    Point1="0,96.2988673730364"
+                    Point2="0,100.298867373036"
+                    Point3="-4,100.298867373036" />
                   <mssgle:LineSegment
-                    End="56.4266666666667,142.730191066758" />
+                    End="-69.0666666666666,100.298867373036" />
                   <mssgle:CubicBezierSegment
-                    Point1="56.4266666666667,142.730191066758"
-                    Point2="60.4266666666667,142.730191066758"
-                    Point3="60.4266666666667,146.730191066758" />
+                    Point1="-69.0666666666666,100.298867373036"
+                    Point2="-73.0666666666666,100.298867373036"
+                    Point3="-73.0666666666666,104.298867373036" />
                   <mssgle:LineSegment
-                    End="60.4266666666667,255.7" />
+                    End="-73.0666666666666,256.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="3.12194661458337,147.730191066758,54.1827734375,11.43359375"
+              BoundingBox="-63.6247200520833,105.298867373036,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[New Output]"
-          TopLeft="313.9,555.1">
+          TopLeft="1217,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-212.4,60.0000000000001"
+              EndConnector="-213.5,60.0000000000001"
               Start="0,0"
-              End="-212.4,52.5000000000001">
+              End="-213.5,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.3542958370239" />
+                    End="0,16.3547671840355" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.3542958370239"
-                    Point2="0,20.3542958370239"
-                    Point3="-4,20.3542958370239" />
+                    Point1="0,16.3547671840355"
+                    Point2="0,20.3547671840355"
+                    Point3="-4,20.3547671840355" />
                   <mssgle:LineSegment
-                    End="-208.4,20.3542958370239" />
+                    End="-209.5,20.3547671840355" />
                   <mssgle:CubicBezierSegment
-                    Point1="-208.4,20.3542958370239"
-                    Point2="-212.4,20.3542958370239"
-                    Point3="-212.4,24.3542958370239" />
+                    Point1="-209.5,20.3547671840355"
+                    Point2="-213.5,20.3547671840355"
+                    Point3="-213.5,24.3547671840355" />
                   <mssgle:LineSegment
-                    End="-212.4,52.5000000000001" />
+                    End="-213.5,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-133.29138671875,25.3542958370239,54.1827734375,11.43359375"
+              BoundingBox="-133.84138671875,25.3547671840355,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Inferred Member Updates Output3]"
-          TopLeft="527.133401381967,1049.10000392596">
+          TopLeft="2239.66666666667,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="20.8666666666668,60"
+              EndConnector="21.8333333333335,60"
               Start="0,0"
-              End="20.8666666666668,52.5">
+              End="21.8333333333335,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.1855670103093" />
+                    End="0,20.1854475209273" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,20.1855670103093"
-                    Point2="0,24.1855670103093"
-                    Point3="4,24.1855670103093" />
+                    Point1="0,20.1854475209273"
+                    Point2="0,24.1854475209273"
+                    Point3="4,24.1854475209273" />
                   <mssgle:LineSegment
-                    End="16.8666666666668,24.1855670103093" />
+                    End="17.8333333333335,24.1854475209273" />
                   <mssgle:CubicBezierSegment
-                    Point1="16.8666666666668,24.1855670103093"
-                    Point2="20.8666666666668,24.1855670103093"
-                    Point3="20.8666666666668,28.1855670103093" />
+                    Point1="17.8333333333335,24.1854475209273"
+                    Point2="21.8333333333335,24.1854475209273"
+                    Point3="21.8333333333335,28.1854475209273" />
                   <mssgle:LineSegment
-                    End="20.8666666666668,52.5" />
+                    End="21.8333333333335,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-63.9696549479166,29.1855670103093,148.8059765625,11.658203125"
+              BoundingBox="-63.4863216145833,29.1854475209273,148.8059765625,11.658203125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Inferred Member Updates Output2]"
-          TopLeft="1257.99338565296,878.86667246951">
+          TopLeft="2709.3,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="160.84,60"
+              EndConnector="28.1999999999998,60.0000000000001"
               Start="0,0"
-              End="160.84,52.5">
+              End="28.1999999999998,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.7686658506732" />
+                    End="0,22.7685255920551" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.7686658506732"
-                    Point2="0,26.7686658506732"
-                    Point3="4,26.7686658506732" />
+                    Point1="0,22.7685255920551"
+                    Point2="0,26.7685255920551"
+                    Point3="4,26.7685255920551" />
                   <mssgle:LineSegment
-                    End="156.84,26.7686658506732" />
+                    End="24.1999999999998,26.7685255920551" />
                   <mssgle:CubicBezierSegment
-                    Point1="156.84,26.7686658506732"
-                    Point2="160.84,26.7686658506732"
-                    Point3="160.84,30.7686658506732" />
+                    Point1="24.1999999999998,26.7685255920551"
+                    Point2="28.1999999999998,26.7685255920551"
+                    Point3="28.1999999999998,30.7685255920551" />
                   <mssgle:LineSegment
-                    End="160.84,52.5" />
+                    End="28.1999999999998,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="6.01701171875007,31.7686658506732,148.8059765625,11.658203125"
+              BoundingBox="-60.3029882812501,31.7685255920551,148.8059765625,11.658203125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Inferred Member Updates Output1]"
-          TopLeft="386.5,555.1">
+          TopLeft="1289.5,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.5000000000001">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000001" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-74.40298828125,20.4208984375001,148.8059765625,11.658203125"
+              BoundingBox="-74.40298828125,20.4208984375,148.8059765625,11.658203125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Inferred Member Updates Output]"
-          TopLeft="1287.5,555.1">
+          TopLeft="389.5,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.5000000000001">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000001" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-74.40298828125,20.4208984375001,148.8059765625,11.658203125"
+              BoundingBox="-74.40298828125,20.4208984375,148.8059765625,11.658203125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Historical Attribute Inserts Output]"
-          TopLeft="1145.35338565296,878.86667246951">
+          TopLeft="2765.7,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-112.52,60.0000000000001"
+              EndConnector="296.8,60"
               Start="0,0"
-              End="-112.52,52.5000000000001">
+              End="296.8,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.644305772231" />
+                    End="0,22.768525592055" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.644305772231"
-                    Point2="0,17.644305772231"
-                    Point3="-4,17.644305772231" />
+                    Point1="0,22.768525592055"
+                    Point2="0,26.768525592055"
+                    Point3="4,26.768525592055" />
                   <mssgle:LineSegment
-                    End="-108.52,17.644305772231" />
+                    End="292.8,26.768525592055" />
                   <mssgle:CubicBezierSegment
-                    Point1="-108.52,17.644305772231"
-                    Point2="-112.52,17.644305772231"
-                    Point3="-112.52,21.644305772231" />
+                    Point1="292.8,26.768525592055"
+                    Point2="296.8,26.768525592055"
+                    Point3="296.8,30.768525592055" />
                   <mssgle:LineSegment
-                    End="-112.52,52.5000000000001" />
+                    End="296.8,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-131.31638671875,22.644305772231,150.1127734375,11.609375"
+              BoundingBox="73.3436132812501,31.768525592055,150.1127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Derived Column Output1]"
-          TopLeft="1229.83338565296,1285.26667246951">
+          TopLeft="2547.5,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -14074,13 +14197,13 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Derived Column Output]"
-          TopLeft="1032.83338565296,980.46667246951">
+          TopLeft="3062.5,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="12,60.0000000000002"
+              EndConnector="-329,60.0000000000001"
               Start="0,0"
-              End="12,52.5000000000002">
+              End="-329,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -14089,15 +14212,15 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                   <mssgle:CubicBezierSegment
                     Point1="0,26.0000000000001"
                     Point2="0,30.0000000000001"
-                    Point3="4,30.0000000000001" />
+                    Point3="-4,30.0000000000001" />
                   <mssgle:LineSegment
-                    End="8,30.0000000000001" />
+                    End="-325,30.0000000000001" />
                   <mssgle:CubicBezierSegment
-                    Point1="8,30.0000000000001"
-                    Point2="12,30.0000000000001"
-                    Point3="12,34.0000000000001" />
+                    Point1="-325,30.0000000000001"
+                    Point2="-329,30.0000000000001"
+                    Point3="-329,34.0000000000001" />
                   <mssgle:LineSegment
-                    End="12,52.5000000000002" />
+                    End="-329,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14108,85 +14231,85 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Changing Attribute Updates Output2]"
-          TopLeft="459.1,555.1">
+          TopLeft="1362,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="250.4,60.0000000000001"
+              EndConnector="250.5,60"
               Start="0,0"
-              End="250.4,52.5000000000001">
+              End="250.5,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.3542958370239" />
+                    End="0,16.3547671840355" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.3542958370239"
-                    Point2="0,20.3542958370239"
-                    Point3="4,20.3542958370239" />
+                    Point1="0,16.3547671840355"
+                    Point2="0,20.3547671840355"
+                    Point3="4,20.3547671840355" />
                   <mssgle:LineSegment
-                    End="246.4,20.3542958370239" />
+                    End="246.5,20.3547671840355" />
                   <mssgle:CubicBezierSegment
-                    Point1="246.4,20.3542958370239"
-                    Point2="250.4,20.3542958370239"
-                    Point3="250.4,24.3542958370239" />
+                    Point1="246.5,20.3547671840355"
+                    Point2="250.5,20.3547671840355"
+                    Point3="250.5,24.3547671840355" />
                   <mssgle:LineSegment
-                    End="250.4,52.5000000000001" />
+                    End="250.5,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="46.66609375,25.3542958370239,157.0678125,11.6630859375"
+              BoundingBox="46.71609375,25.3547671840355,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Changing Attribute Updates Output1]"
-          TopLeft="1314.31338565296,878.86667246951">
+          TopLeft="2822.1,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="421.52,60"
+              EndConnector="565.4,60"
               Start="0,0"
-              End="421.52,52.5">
+              End="565.4,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.6443057722308" />
+                    End="0,13.6436222005842" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.6443057722308"
-                    Point2="0,17.6443057722308"
-                    Point3="4,17.6443057722308" />
+                    Point1="0,13.6436222005842"
+                    Point2="0,17.6436222005842"
+                    Point3="4,17.6436222005842" />
                   <mssgle:LineSegment
-                    End="417.52,17.6443057722308" />
+                    End="561.4,17.6436222005842" />
                   <mssgle:CubicBezierSegment
-                    Point1="417.52,17.6443057722308"
-                    Point2="421.52,17.6443057722308"
-                    Point3="421.52,21.6443057722308" />
+                    Point1="561.4,17.6436222005842"
+                    Point2="565.4,17.6436222005842"
+                    Point3="565.4,21.6436222005842" />
                   <mssgle:LineSegment
-                    End="421.52,52.5" />
+                    End="565.4,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="132.22609375,22.6443057722308,157.0678125,11.6630859375"
+              BoundingBox="204.16609375,22.6436222005842,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[Changing Attribute Updates Output]"
-          TopLeft="1360.5,555.1">
+          TopLeft="462.5,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="251,60.0000000000001"
+              EndConnector="251,60"
               Start="0,0"
-              End="251,52.5000000000001">
+              End="251,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -14203,7 +14326,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
                     Point2="251,20.352422907489"
                     Point3="251,24.352422907489" />
                   <mssgle:LineSegment
-                    End="251,52.5000000000001" />
+                    End="251,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14216,18 +14339,18 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[ADO NET Source Output3]"
-          TopLeft="1287.5,453.5">
+          TopLeft="389.5,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.5000000000001">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000001" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14238,7 +14361,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[ADO NET Source Output2]"
-          TopLeft="477.000068048634,947.500003925958">
+          TopLeft="2189.5,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -14260,18 +14383,18 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[ADO NET Source Output1]"
-          TopLeft="1229.83338565296,777.26667246951">
+          TopLeft="2737.5,47.4999999999995">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14282,18 +14405,18 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Dimensions.Paths[ADO NET Source Output]"
-          TopLeft="386.5,453.5">
+          TopLeft="1289.5,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.5000000000001">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000001" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14694,79 +14817,117 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="180.8,41.6"
-          Id="Package\Load REP layer\Load Fact\Sort Orders ProductID"
-          TopLeft="64.7000000000001,818.3" />
-        <NodeLayout
-          Size="206.4,41.6"
-          Id="Package\Load REP layer\Load Fact\Merge Orders and Products"
-          TopLeft="297.9,919.899999999999" />
-        <NodeLayout
-          Size="204,41.6"
-          Id="Package\Load REP layer\Load Fact\Lookup REP DimEmployee"
-          TopLeft="27.1,310.3" />
-        <NodeLayout
-          Size="231.2,41.6"
-          Id="Package\Load REP layer\Load Fact\Lookup REP DimDate OrderDate"
-          TopLeft="13.5,513.5" />
-        <NodeLayout
-          Size="213.6,41.6"
-          Id="Package\Load REP layer\Load Fact\Lookup REP DimShipMethod"
-          TopLeft="22.3,411.9" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Load REP layer\Load Fact\Read MSTR Orders"
-          TopLeft="43.9,5.50000000000018" />
-        <NodeLayout
-          Size="193.6,41.6"
-          Id="Package\Load REP layer\Load Fact\Lookup REP DimProduct"
-          TopLeft="32.3,208.7" />
-        <NodeLayout
-          Size="247.2,41.6"
-          Id="Package\Load REP layer\Load Fact\Lookup REP DimDate RequiredDate"
-          TopLeft="5.50000000000003,615.1" />
-        <NodeLayout
-          Size="190.4,41.6"
+          Size="190,42"
           Id="Package\Load REP layer\Load Fact\Sort Products ProductID"
-          TopLeft="305.9,818.3" />
+          TopLeft="712,508.5" />
         <NodeLayout
-          Size="179.2,41.6"
+          Size="206,42"
+          Id="Package\Load REP layer\Load Fact\Merge Orders and Products"
+          TopLeft="487,645.5" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Load REP layer\Load Fact\Lookup REP DimEmployee"
+          TopLeft="1256,215.5" />
+        <NodeLayout
+          Size="231,42"
+          Id="Package\Load REP layer\Load Fact\Lookup REP DimDate OrderDate"
+          TopLeft="917.5,335.5" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Load REP layer\Load Fact\Sort Orders ProductID"
+          TopLeft="315.5,500.5" />
+        <NodeLayout
+          Size="322,42"
+          Id="Package\Load REP layer\Load Fact\Slowly Changing Dimension REP FactSalesOrder"
+          TopLeft="436,747.5" />
+        <NodeLayout
+          Size="194,42"
+          Id="Package\Load REP layer\Load Fact\Lookup REP DimProduct"
+          TopLeft="933,216.5" />
+        <NodeLayout
+          Size="247,42"
+          Id="Package\Load REP layer\Load Fact\Lookup REP DimDate RequiredDate"
+          TopLeft="583.5,336.5" />
+        <NodeLayout
+          Size="179,42"
           Id="Package\Load REP layer\Load Fact\Read MSTR Products"
-          TopLeft="311.5,716.7" />
+          TopLeft="691.5,406.5" />
         <NodeLayout
-          Size="243.2,41.6"
+          Size="170,42"
+          Id="Package\Load REP layer\Load Fact\Read MSTR Orders"
+          TopLeft="282,115.5" />
+        <NodeLayout
+          Size="214,42"
+          Id="Package\Load REP layer\Load Fact\Lookup REP DimShipMethod"
+          TopLeft="1248,336.5" />
+        <NodeLayout
+          Size="243,42"
           Id="Package\Load REP layer\Load Fact\Lookup REP DimDate ShippedDate"
-          TopLeft="7.50000000000014,716.7" />
+          TopLeft="250.5,333.5" />
         <NodeLayout
-          Size="203.2,41.6"
+          Size="203,42"
           Id="Package\Load REP layer\Load Fact\Lookup REP DimCustomer"
-          TopLeft="27.5,107.1" />
+          TopLeft="609.5,217.5" />
         <EdgeLayout
-          Id="Package\Load REP layer\Load Fact.Paths[Sort Output1]"
-          TopLeft="401.1,859.9">
+          Id="Package\Load REP layer\Load Fact.Paths[ADO NET Source Output]"
+          TopLeft="781,448.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="33.0666666666667,59.9999999999999"
+              EndConnector="26,60"
               Start="0,0"
-              End="33.0666666666667,52.4999999999999">
+              End="26,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.7230769230769" />
+                    End="0,26" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.7230769230769"
-                    Point2="0,35.7230769230769"
-                    Point3="4,35.7230769230769" />
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
                   <mssgle:LineSegment
-                    End="29.0666666666667,35.7230769230769" />
+                    End="22,30" />
                   <mssgle:CubicBezierSegment
-                    Point1="29.0666666666667,35.7230769230769"
-                    Point2="33.0666666666667,35.7230769230769"
-                    Point3="33.0666666666667,39.7230769230769" />
+                    Point1="22,30"
+                    Point2="26,30"
+                    Point3="26,34" />
                   <mssgle:LineSegment
-                    End="33.0666666666667,52.4999999999999" />
+                    End="26,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load REP layer\Load Fact.Paths[Sort Output1]"
+          TopLeft="807,550.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-184,95"
+              Start="0,0"
+              End="-184,87.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5606936416185" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,52.5606936416185"
+                    Point2="0,56.5606936416185"
+                    Point3="-4,56.5606936416185" />
+                  <mssgle:LineSegment
+                    End="-180,56.5606936416185" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-180,56.5606936416185"
+                    Point2="-184,56.5606936416185"
+                    Point3="-184,60.5606936416185" />
+                  <mssgle:LineSegment
+                    End="-184,87.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14777,30 +14938,30 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Sort Output]"
-          TopLeft="155.1,859.9">
+          TopLeft="406,542.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="212.933333333333,59.9999999999999"
+              EndConnector="151,103"
               Start="0,0"
-              End="212.933333333333,52.4999999999999">
+              End="151,95.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.7230769230769" />
+                    End="0,57.3236994219653" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.7230769230769"
-                    Point2="0,35.7230769230769"
-                    Point3="4,35.7230769230769" />
+                    Point1="0,57.3236994219653"
+                    Point2="0,61.3236994219653"
+                    Point3="4,61.3236994219653" />
                   <mssgle:LineSegment
-                    End="208.933333333333,35.7230769230769" />
+                    End="147,61.3236994219653" />
                   <mssgle:CubicBezierSegment
-                    Point1="208.933333333333,35.7230769230769"
-                    Point2="212.933333333333,35.7230769230769"
-                    Point3="212.933333333333,39.7230769230769" />
+                    Point1="147,61.3236994219653"
+                    Point2="151,61.3236994219653"
+                    Point3="151,65.3236994219653" />
                   <mssgle:LineSegment
-                    End="212.933333333333,52.4999999999999" />
+                    End="151,95.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14810,301 +14971,265 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load REP layer\Load Fact.Paths[Lookup Match Output5]"
-          TopLeft="129.1,758.3">
+          Id="Package\Load REP layer\Load Fact.Paths[Merge Join Output]"
+          TopLeft="593.5,687.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="26,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="26,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.9999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.9999999999999"
-                    Point2="0,29.9999999999999"
-                    Point3="4,29.9999999999999" />
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load REP layer\Load Fact.Paths[Lookup Match Output6]"
+          TopLeft="1248,357">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-99.5,0"
+              Start="0,0"
+              End="-92,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="22,29.9999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="22,29.9999999999999"
-                    Point2="26,29.9999999999999"
-                    Point3="26,33.9999999999999" />
-                  <mssgle:LineSegment
-                    End="26,52.4999999999999" />
+                    End="-92,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-35.19138671875,34.9999999999999,96.3827734375,11.609375"
+              BoundingBox="-94.19138671875,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load REP layer\Load Fact.Paths[Lookup Match Output5]"
+          TopLeft="917.5,357">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-87,0"
+              Start="0,0"
+              End="-79.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-79.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-87.94138671875,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Lookup Match Output4]"
-          TopLeft="129.1,656.7">
+          TopLeft="372,375.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="33.9999999999999,125"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="33.9999999999999,117.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,58.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,58.5"
+                    Point2="0,62.5"
+                    Point3="4,62.5" />
+                  <mssgle:LineSegment
+                    End="29.9999999999999,62.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="29.9999999999999,62.5"
+                    Point2="33.9999999999999,62.5"
+                    Point3="33.9999999999999,66.5" />
+                  <mssgle:LineSegment
+                    End="33.9999999999999,117.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453124999999,96.3827734375,11.609375"
+              BoundingBox="-31.19138671875,67.5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Lookup Match Output3]"
-          TopLeft="129.1,555.1">
+          TopLeft="812.5,238">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="120.5,0"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="113,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="113,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453124999999,96.3827734375,11.609375"
+              BoundingBox="8.30861328125,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Lookup Match Output2]"
-          TopLeft="129.1,453.5">
+          TopLeft="1127,237">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="129,0"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="121.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="121.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              BoundingBox="12.55861328125,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Lookup Match Output1]"
-          TopLeft="129.1,250.3">
+          TopLeft="583.5,356">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="-89.9999999999999,0"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="-82.4999999999999,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="-82.4999999999999,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              BoundingBox="-89.44138671875,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Lookup Match Output]"
-          TopLeft="129.1,148.7">
+          TopLeft="1356.5,257.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,79"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,71.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,71.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453124999999,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,29.9453125,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load REP layer\Load Fact.Paths[ADO NET Source Output1]"
-          TopLeft="401.1,758.3">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load REP layer\Load Fact.Paths[ADO NET Source Output]"
-          TopLeft="129.1,47.1000000000002">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
-          Size="308,41.6"
-          Id="Package\Load REP layer\Load Fact\Slowly Changing Dimension REP FactSalesOrder"
-          TopLeft="247.1,1021.5" />
-        <EdgeLayout
-          Id="Package\Load REP layer\Load Fact.Paths[Merge Join Output]"
-          TopLeft="401.1,961.499999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="291.2,41.6"
+          Size="304,42"
           Id="Package\Load REP layer\Load Fact\Derived Column REP FactSalesOrder ValidTo"
-          TopLeft="48.5000000000001,1123.1" />
+          TopLeft="203,871.5" />
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Historical Attribute Inserts Output]"
-          TopLeft="311.1,1063.1">
+          TopLeft="502.8,789.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-117,60.0000000000002"
+              EndConnector="-147.8,82"
               Start="0,0"
-              End="-117,52.5000000000002">
+              End="-147.8,74.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.6146788990826" />
+                    End="0,20.0456540825285" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.6146788990826"
-                    Point2="0,17.6146788990826"
-                    Point3="-4,17.6146788990826" />
+                    Point1="0,20.0456540825285"
+                    Point2="0,24.0456540825285"
+                    Point3="-4,24.0456540825285" />
                   <mssgle:LineSegment
-                    End="-113,17.6146788990826" />
+                    End="-143.8,24.0456540825285" />
                   <mssgle:CubicBezierSegment
-                    Point1="-113,17.6146788990826"
-                    Point2="-117,17.6146788990826"
-                    Point3="-117,21.6146788990826" />
+                    Point1="-143.8,24.0456540825285"
+                    Point2="-147.8,24.0456540825285"
+                    Point3="-147.8,28.0456540825285" />
                   <mssgle:LineSegment
-                    End="-117,52.5000000000002" />
+                    End="-147.8,74.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-133.55638671875,22.6146788990826,150.1127734375,11.609375"
+              BoundingBox="-148.95638671875,29.0456540825285,150.1127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="267.2,41.6"
+          Size="278,42"
           Id="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder"
-          TopLeft="72.5000000000001,1224.7" />
+          TopLeft="220.5,975.5" />
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Derived Column Output]"
-          TopLeft="194.1,1164.7">
+          TopLeft="357.25,913.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="12,60.0000000000002"
+              EndConnector="0,62"
               Start="0,0"
-              End="12,52.5000000000002">
+              End="0,54.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.0000000000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.0000000000001"
-                    Point2="0,30.0000000000001"
-                    Point3="4,30.0000000000001" />
-                  <mssgle:LineSegment
-                    End="8,30.0000000000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="8,30.0000000000001"
-                    Point2="12,30.0000000000001"
-                    Point3="12,34.0000000000001" />
-                  <mssgle:LineSegment
-                    End="12,52.5000000000002" />
+                    End="0,54.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -15114,71 +15239,71 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="220,41.6"
+          Size="229,42"
           Id="Package\Load REP layer\Load Fact\Union All REP FactSalesOrder"
-          TopLeft="291.1,1326.3" />
+          TopLeft="528.5,1053.5" />
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[New Output]"
-          TopLeft="371.1,1063.1">
+          TopLeft="565.6,789.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="65.3333333333333,263.200000000001"
+              EndConnector="114.233333333333,264"
               Start="0,0"
-              End="65.3333333333333,255.700000000001">
+              End="114.233333333333,256.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,138.809801633606" />
+                    End="0,139.271491370294" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,138.809801633606"
-                    Point2="0,142.809801633606"
-                    Point3="4,142.809801633606" />
+                    Point1="0,139.271491370294"
+                    Point2="0,143.271491370294"
+                    Point3="4,143.271491370294" />
                   <mssgle:LineSegment
-                    End="61.3333333333333,142.809801633606" />
+                    End="110.233333333333,143.271491370294" />
                   <mssgle:CubicBezierSegment
-                    Point1="61.3333333333333,142.809801633606"
-                    Point2="65.3333333333333,142.809801633606"
-                    Point3="65.3333333333333,146.809801633606" />
+                    Point1="110.233333333333,143.271491370294"
+                    Point2="114.233333333333,143.271491370294"
+                    Point3="114.233333333333,147.271491370294" />
                   <mssgle:LineSegment
-                    End="65.3333333333333,255.700000000001" />
+                    End="114.233333333333,256.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="5.57527994791666,147.809801633606,54.1827734375,11.43359375"
+              BoundingBox="30.0252799479167,148.271491370294,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[OLE DB Command Output]"
-          TopLeft="206.1,1266.3">
+          TopLeft="359.5,1017.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="159.666666666667,60.0000000000002"
+              EndConnector="246.666666666667,36"
               Start="0,0"
-              End="159.666666666667,52.5000000000002">
+              End="246.666666666667,28.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.7400722021662" />
+                    End="0,17.4501300954033" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.7400722021662"
-                    Point2="0,35.7400722021662"
-                    Point3="4,35.7400722021662" />
+                    Point1="0,17.4501300954033"
+                    Point2="0,21.4501300954033"
+                    Point3="4,21.4501300954033" />
                   <mssgle:LineSegment
-                    End="155.666666666667,35.7400722021662" />
+                    End="242.666666666667,21.4501300954033" />
                   <mssgle:CubicBezierSegment
-                    Point1="155.666666666667,35.7400722021662"
-                    Point2="159.666666666667,35.7400722021662"
-                    Point3="159.666666666667,39.7400722021662" />
+                    Point1="242.666666666667,21.4501300954033"
+                    Point2="246.666666666667,21.4501300954033"
+                    Point3="246.666666666667,25.4501300954033" />
                   <mssgle:LineSegment
-                    End="159.666666666667,52.5000000000002" />
+                    End="246.666666666667,28.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -15188,23 +15313,23 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="303.2,41.6"
+          Size="317,42"
           Id="Package\Load REP layer\Load Fact\Derived Column REP FactSalesOrder ValidFrom"
-          TopLeft="249.5,1427.9" />
+          TopLeft="485.5,1151.5" />
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Union All Output 1]"
-          TopLeft="401.1,1367.9">
+          TopLeft="643.5,1095.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000002"
+              EndConnector="0,56"
               Start="0,0"
-              End="0,52.5000000000002">
+              End="0,48.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000002" />
+                    End="0,48.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -15214,23 +15339,23 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="204,41.6"
+          Size="212,42"
           Id="Package\Load REP layer\Load Fact\Insert REP FactSalesOrder"
-          TopLeft="299.1,1529.5" />
+          TopLeft="537.5,1255.5" />
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Derived Column Output1]"
-          TopLeft="401.1,1469.5">
+          TopLeft="643.75,1193.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000002"
+              EndConnector="0,62"
               Start="0,0"
-              End="0,52.5000000000002">
+              End="0,54.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000002" />
+                    End="0,54.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -15240,107 +15365,131 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="275.2,41.6"
+          Size="287,42"
           Id="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 1"
-          TopLeft="462.5,1123.1" />
+          TopLeft="696,851.5" />
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Inferred Member Updates Output]"
-          TopLeft="431.1,1063.1">
+          TopLeft="628.4,789.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="169,60"
+              EndConnector="211.1,62"
               Start="0,0"
-              End="169,52.5">
+              End="211.1,54.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.7625899280576" />
+                    End="0,23.6503785271851" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.7625899280576"
-                    Point2="0,26.7625899280576"
-                    Point3="4,26.7625899280576" />
+                    Point1="0,23.6503785271851"
+                    Point2="0,27.6503785271851"
+                    Point3="4,27.6503785271851" />
                   <mssgle:LineSegment
-                    End="165,26.7625899280576" />
+                    End="207.1,27.6503785271851" />
                   <mssgle:CubicBezierSegment
-                    Point1="165,26.7625899280576"
-                    Point2="169,26.7625899280576"
-                    Point3="169,30.7625899280576" />
+                    Point1="207.1,27.6503785271851"
+                    Point2="211.1,27.6503785271851"
+                    Point3="211.1,31.6503785271851" />
                   <mssgle:LineSegment
-                    End="169,52.5" />
+                    End="211.1,54.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="10.09701171875,31.7625899280576,148.8059765625,11.658203125"
+              BoundingBox="31.14701171875,32.6503785271851,148.8059765625,11.658203125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="275.2,41.6"
+          Size="287,42"
           Id="Package\Load REP layer\Load Fact\OLE DB Command REP FactSalesOrder 2"
-          TopLeft="798.5,1123.1" />
+          TopLeft="1023,852.5" />
         <EdgeLayout
           Id="Package\Load REP layer\Load Fact.Paths[Changing Attribute Updates Output]"
-          TopLeft="491.1,1063.1">
+          TopLeft="691.2,789.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="445,60"
+              EndConnector="475.3,63"
               Start="0,0"
-              End="445,52.5">
+              End="475.3,55.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.6146788990826" />
+                    End="0,14.4741000877963" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.6146788990826"
-                    Point2="0,17.6146788990826"
-                    Point3="4,17.6146788990826" />
+                    Point1="0,14.4741000877963"
+                    Point2="0,18.4741000877963"
+                    Point3="4,18.4741000877963" />
                   <mssgle:LineSegment
-                    End="441,17.6146788990826" />
+                    End="471.3,18.4741000877963" />
                   <mssgle:CubicBezierSegment
-                    Point1="441,17.6146788990826"
-                    Point2="445,17.6146788990826"
-                    Point3="445,21.6146788990826" />
+                    Point1="471.3,18.4741000877963"
+                    Point2="475.3,18.4741000877963"
+                    Point3="475.3,22.4741000877963" />
                   <mssgle:LineSegment
-                    End="445,52.5" />
+                    End="475.3,55.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="143.96609375,22.6146788990826,157.0678125,11.6630859375"
+              BoundingBox="159.11609375,23.4741000877963,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="327,42"
+          Id="Package\Load REP layer\Load Fact\Replace null values in Orders ShippedDate column"
+          TopLeft="203.5,217.5" />
         <EdgeLayout
-          Id="Package\Load REP layer\Load Fact.Paths[Lookup Match Output6]"
-          TopLeft="129.1,351.9">
+          Id="Package\Load REP layer\Load Fact.Paths[ADO NET Source Output1]"
+          TopLeft="367,157.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453124999999,96.3827734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load REP layer\Load Fact.Paths[Derived Column Output2]"
+          TopLeft="530.5,238.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="79,0"
+              Start="0,0"
+              End="71.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="71.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -15352,7 +15501,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -15362,7 +15511,7 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -15381,137 +15530,6 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
         <Name>UsedTableName</Name>
         <Value
           type="q3:string">[REP].[DimDate]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimShipMethod">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[REP].[DimShipMethod]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load REP layer\Load Fact\Read MSTR Orders">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimProduct">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[REP].[DimProduct]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimDate RequiredDate">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[REP].[DimDate]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load REP layer\Load Fact\Read MSTR Products">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimDate ShippedDate">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[REP].[DimDate]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimCustomer">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[REP].[DimCustomer]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
@@ -15557,6 +15575,12 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
       &lt;ColumnName&gt;DimShipMethodID&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Merge Orders and Products.Outputs[Merge Join Output].Columns[Freight]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Freight&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;HistoricalAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
       &lt;IdentificationString&gt;Merge Orders and Products.Outputs[Merge Join Output].Columns[OrderDate]&lt;/IdentificationString&gt;
@@ -15664,6 +15688,137 @@ where [refTable].[SRC_ID_Shippers] = ?</property>
   &lt;DateVariable&gt;System::CreationDate&lt;/DateVariable&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimProduct">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[REP].[DimProduct]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimDate RequiredDate">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[REP].[DimDate]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load REP layer\Load Fact\Read MSTR Products">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load REP layer\Load Fact\Read MSTR Orders">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimShipMethod">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[REP].[DimShipMethod]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimDate ShippedDate">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[REP].[DimDate]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load REP layer\Load Fact\Lookup REP DimCustomer">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[REP].[DimCustomer]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

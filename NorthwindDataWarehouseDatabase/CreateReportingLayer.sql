@@ -102,6 +102,7 @@ CREATE TABLE [REP].[FactSalesOrder] (
 	[OrderDate] date NULL,
 	[RequiredDate] date NULL,
 	[ShippedDate] date NULL,
+	[Freight] money NOT NULL,
 	[OrderDetailsUnitPrice] money NOT NULL,
 	[OrderDetailsQuantity] smallint NOT NULL,
 	[OrderDetailsDiscount] real NOT NULL,

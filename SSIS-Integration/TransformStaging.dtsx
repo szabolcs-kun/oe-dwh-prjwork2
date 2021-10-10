@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="TransformStaging"
   DTS:PackageType="5"
-  DTS:VersionBuild="80"
-  DTS:VersionGUID="{22CA64D3-927A-472D-B147-4B0E9D10F42F}">
+  DTS:VersionBuild="88"
+  DTS:VersionGUID="{EEFDA646-04F7-4B19-9E57-F1286C6B962F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -19582,55 +19582,55 @@
               name="ADO NET Source Output"
               startId="Package\Populate MSTR schema\Read STG Categories.Outputs[ADO NET Source Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output3]"
+              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output]"
               endId="Package\Populate MSTR schema\OLE DB Command MSTR Products 3.Inputs[OLE DB Command Input]"
               name="Changing Attribute Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Products.Outputs[Changing Attribute Updates Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output2]"
+              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output1]"
               endId="Package\Populate MSTR schema\OLE DB Command MSTR Employees 2.Inputs[OLE DB Command Input]"
               name="Changing Attribute Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Employees.Outputs[Changing Attribute Updates Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output4]"
+              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output2]"
               endId="Package\Populate MSTR schema\OLE DB Command MSTR Orders.Inputs[OLE DB Command Input]"
               name="Changing Attribute Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Orders.Outputs[Changing Attribute Updates Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output]"
+              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output3]"
               endId="Package\Populate MSTR schema\OLE DB Command MSTR Shippers 2.Inputs[OLE DB Command Input]"
               name="Changing Attribute Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Shippers.Outputs[Changing Attribute Updates Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output1]"
+              refId="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output4]"
               endId="Package\Populate MSTR schema\OLE DB Command MSTR Customers 2.Inputs[OLE DB Command Input]"
               name="Changing Attribute Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Customers.Outputs[Changing Attribute Updates Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Data Conversion Output1]"
-              endId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Employees.Inputs[Slowly Changing Dimension Input]"
-              name="Data Conversion Output"
-              startId="Package\Populate MSTR schema\Convert merged Employees.Outputs[Data Conversion Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Data Conversion Output2]"
-              endId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Orders.Inputs[Slowly Changing Dimension Input]"
-              name="Data Conversion Output"
-              startId="Package\Populate MSTR schema\Convert merged Orders.Outputs[Data Conversion Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Data Conversion Output3]"
+              refId="Package\Populate MSTR schema.Paths[Data Conversion Output4]"
               endId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Customers.Inputs[Slowly Changing Dimension Input]"
               name="Data Conversion Output"
               startId="Package\Populate MSTR schema\Convert Customers.Outputs[Data Conversion Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Data Conversion Output4]"
-              endId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Shippers.Inputs[Slowly Changing Dimension Input]"
+              refId="Package\Populate MSTR schema.Paths[Data Conversion Output2]"
+              endId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Employees.Inputs[Slowly Changing Dimension Input]"
               name="Data Conversion Output"
-              startId="Package\Populate MSTR schema\Convert Shippers.Outputs[Data Conversion Output]" />
+              startId="Package\Populate MSTR schema\Convert merged Employees.Outputs[Data Conversion Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Data Conversion Output]"
+              refId="Package\Populate MSTR schema.Paths[Data Conversion Output3]"
               endId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Products.Inputs[Slowly Changing Dimension Input]"
               name="Data Conversion Output"
               startId="Package\Populate MSTR schema\Convert merged Products.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Data Conversion Output]"
+              endId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Orders.Inputs[Slowly Changing Dimension Input]"
+              name="Data Conversion Output"
+              startId="Package\Populate MSTR schema\Convert merged Orders.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Data Conversion Output1]"
+              endId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Shippers.Inputs[Slowly Changing Dimension Input]"
+              name="Data Conversion Output"
+              startId="Package\Populate MSTR schema\Convert Shippers.Outputs[Data Conversion Output]" />
             <path
               refId="Package\Populate MSTR schema.Paths[Derived Column Output]"
               endId="Package\Populate MSTR schema\Insert MSTR Products.Inputs[OLE DB Destination Input]"
@@ -19662,12 +19662,12 @@
               name="Historical Attribute Inserts Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Orders.Outputs[Historical Attribute Inserts Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Inferred Member Updates Output4]"
+              refId="Package\Populate MSTR schema.Paths[Inferred Member Updates Output]"
               endId="Package\Populate MSTR schema\OLE DB Command  MSTR Orders 2.Inputs[OLE DB Command Input]"
               name="Inferred Member Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Orders.Outputs[Inferred Member Updates Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Inferred Member Updates Output3]"
+              refId="Package\Populate MSTR schema.Paths[Inferred Member Updates Output1]"
               endId="Package\Populate MSTR schema\OLE DB Command MSTR Employees.Inputs[OLE DB Command Input]"
               name="Inferred Member Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Employees.Outputs[Inferred Member Updates Output]" />
@@ -19677,177 +19677,177 @@
               name="Inferred Member Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Shippers.Outputs[Inferred Member Updates Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Inferred Member Updates Output1]"
+              refId="Package\Populate MSTR schema.Paths[Inferred Member Updates Output3]"
               endId="Package\Populate MSTR schema\OLE DB Command MSTR Customers.Inputs[OLE DB Command Input]"
               name="Inferred Member Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Customers.Outputs[Inferred Member Updates Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Inferred Member Updates Output]"
+              refId="Package\Populate MSTR schema.Paths[Inferred Member Updates Output4]"
               endId="Package\Populate MSTR schema\OLE DB Command MSTR Products 2.Inputs[OLE DB Command Input]"
               name="Inferred Member Updates Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Products.Outputs[Inferred Member Updates Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Merge Join Output2]"
-              endId="Package\Populate MSTR schema\Sort Territories TerritoryID.Inputs[Sort Input]"
-              name="Merge Join Output"
-              startId="Package\Populate MSTR schema\Merge Territories and Regions.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Merge Join Output3]"
-              endId="Package\Populate MSTR schema\Convert merged Orders.Inputs[Data Conversion Input]"
-              name="Merge Join Output"
-              startId="Package\Populate MSTR schema\Merge Orders and OrderDetails.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Merge Join Output4]"
-              endId="Package\Populate MSTR schema\Convert merged Employees.Inputs[Data Conversion Input]"
-              name="Merge Join Output"
-              startId="Package\Populate MSTR schema\Merge Employees and EmployeeTerritories.Outputs[Merge Join Output]" />
             <path
               refId="Package\Populate MSTR schema.Paths[Merge Join Output5]"
               endId="Package\Populate MSTR schema\Sort EmployeeTerritories EmployeeID.Inputs[Sort Input]"
               name="Merge Join Output"
               startId="Package\Populate MSTR schema\Merge Territories and EmployeeTerritories.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Merge Join Output1]"
-              endId="Package\Populate MSTR schema\Sort Products SupplierID.Inputs[Sort Input]"
-              name="Merge Join Output"
-              startId="Package\Populate MSTR schema\Merge Products and Categories.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Merge Join Output]"
+              refId="Package\Populate MSTR schema.Paths[Merge Join Output4]"
               endId="Package\Populate MSTR schema\Convert merged Products.Inputs[Data Conversion Input]"
               name="Merge Join Output"
               startId="Package\Populate MSTR schema\Merge Products and Suppliers.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[New Output4]"
+              refId="Package\Populate MSTR schema.Paths[Merge Join Output3]"
+              endId="Package\Populate MSTR schema\Sort Products SupplierID.Inputs[Sort Input]"
+              name="Merge Join Output"
+              startId="Package\Populate MSTR schema\Merge Products and Categories.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Merge Join Output1]"
+              endId="Package\Populate MSTR schema\Convert merged Employees.Inputs[Data Conversion Input]"
+              name="Merge Join Output"
+              startId="Package\Populate MSTR schema\Merge Employees and EmployeeTerritories.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Merge Join Output]"
+              endId="Package\Populate MSTR schema\Sort Territories TerritoryID.Inputs[Sort Input]"
+              name="Merge Join Output"
+              startId="Package\Populate MSTR schema\Merge Territories and Regions.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Merge Join Output2]"
+              endId="Package\Populate MSTR schema\Convert merged Orders.Inputs[Data Conversion Input]"
+              name="Merge Join Output"
+              startId="Package\Populate MSTR schema\Merge Orders and OrderDetails.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[New Output]"
               endId="Package\Populate MSTR schema\Union All MSTR Orders.Inputs[Union All Input 1]"
               name="New Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Orders.Outputs[New Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[New Output2]"
+              refId="Package\Populate MSTR schema.Paths[New Output1]"
               endId="Package\Populate MSTR schema\Union All MSTR Products.Inputs[Union All Input 1]"
               name="New Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Products.Outputs[New Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[New Output]"
+              refId="Package\Populate MSTR schema.Paths[New Output2]"
               endId="Package\Populate MSTR schema\Insert MSTR Employees.Inputs[OLE DB Destination Input]"
               name="New Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Employees.Outputs[New Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[New Output1]"
+              refId="Package\Populate MSTR schema.Paths[New Output3]"
               endId="Package\Populate MSTR schema\Populate MSTR Customers.Inputs[OLE DB Destination Input]"
               name="New Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Customers.Outputs[New Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[New Output3]"
+              refId="Package\Populate MSTR schema.Paths[New Output4]"
               endId="Package\Populate MSTR schema\Insert MSTR Shippers.Inputs[OLE DB Destination Input]"
               name="New Output"
               startId="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Shippers.Outputs[New Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[OLE DB Command Output1]"
+              refId="Package\Populate MSTR schema.Paths[OLE DB Command Output]"
               endId="Package\Populate MSTR schema\Union All MSTR Orders.Inputs[Union All Input 2]"
               name="OLE DB Command Output"
               startId="Package\Populate MSTR schema\OLE DB Command MSTR Orders 3.Outputs[OLE DB Command Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[OLE DB Command Output]"
+              refId="Package\Populate MSTR schema.Paths[OLE DB Command Output1]"
               endId="Package\Populate MSTR schema\Union All MSTR Products.Inputs[Union All Input 2]"
               name="OLE DB Command Output"
               startId="Package\Populate MSTR schema\OLE DB Command MSTR Products.Outputs[OLE DB Command Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output2]"
-              endId="Package\Populate MSTR schema\Convert Shippers.Inputs[Data Conversion Input]"
+              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output4]"
+              endId="Package\Populate MSTR schema\Sort Employees EmployeeID.Inputs[Sort Input]"
               name="OLE DB Source Output"
-              startId="Package\Populate MSTR schema\Read STG Shippers.Outputs[OLE DB Source Output]" />
+              startId="Package\Populate MSTR schema\Read STG Employees.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output]"
+              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output5]"
               endId="Package\Populate MSTR schema\Convert Customers.Inputs[Data Conversion Input]"
               name="OLE DB Source Output"
               startId="Package\Populate MSTR schema\Read STG Customers.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output1]"
-              endId="Package\Populate MSTR schema\Sort EmployeeTerritories TerritoryIDs.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Populate MSTR schema\Read STG EmployeeTerritories.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Populate MSTR schema.Paths[OLE DB Source Output3]"
               endId="Package\Populate MSTR schema\Sort Region RegionID.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Populate MSTR schema\Read STG Region.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output4]"
+              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output1]"
+              endId="Package\Populate MSTR schema\Convert Shippers.Inputs[Data Conversion Input]"
+              name="OLE DB Source Output"
+              startId="Package\Populate MSTR schema\Read STG Shippers.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output]"
+              endId="Package\Populate MSTR schema\Sort EmployeeTerritories TerritoryIDs.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Populate MSTR schema\Read STG EmployeeTerritories.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output2]"
               endId="Package\Populate MSTR schema\Sort  Territories RegionID.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Populate MSTR schema\Read STG Territories.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[OLE DB Source Output5]"
-              endId="Package\Populate MSTR schema\Sort Employees EmployeeID.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Populate MSTR schema\Read STG Employees.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Sort Output4]"
-              endId="Package\Populate MSTR schema\Merge Products and Suppliers.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Populate MSTR schema\Sort Suppliers SupplierID.Outputs[Sort Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Sort Output]"
-              endId="Package\Populate MSTR schema\Merge Territories and EmployeeTerritories.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Populate MSTR schema\Sort EmployeeTerritories TerritoryIDs.Outputs[Sort Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Sort Output1]"
-              endId="Package\Populate MSTR schema\Merge Territories and Regions.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Populate MSTR schema\Sort Region RegionID.Outputs[Sort Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Sort Output3]"
-              endId="Package\Populate MSTR schema\Merge Orders and OrderDetails.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Populate MSTR schema\Sort OrderDetails OrderID.Outputs[Sort Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Sort Output8]"
-              endId="Package\Populate MSTR schema\Merge Employees and EmployeeTerritories.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Populate MSTR schema\Sort EmployeeTerritories EmployeeID.Outputs[Sort Output]" />
             <path
               refId="Package\Populate MSTR schema.Paths[Sort Output10]"
               endId="Package\Populate MSTR schema\Merge Territories and EmployeeTerritories.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Populate MSTR schema\Sort Territories TerritoryID.Outputs[Sort Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Sort Output9]"
-              endId="Package\Populate MSTR schema\Merge Employees and EmployeeTerritories.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Populate MSTR schema\Sort Employees EmployeeID.Outputs[Sort Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Sort Output2]"
-              endId="Package\Populate MSTR schema\Merge Territories and Regions.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Populate MSTR schema\Sort  Territories RegionID.Outputs[Sort Output]" />
-            <path
-              refId="Package\Populate MSTR schema.Paths[Sort Output7]"
+              refId="Package\Populate MSTR schema.Paths[Sort Output]"
               endId="Package\Populate MSTR schema\Merge Orders and OrderDetails.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Populate MSTR schema\Sort Orders OrderID.Outputs[Sort Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Sort Output6]"
+              refId="Package\Populate MSTR schema.Paths[Sort Output1]"
+              endId="Package\Populate MSTR schema\Merge Products and Categories.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Populate MSTR schema\Sort Products CategoryID.Outputs[Sort Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Sort Output2]"
               endId="Package\Populate MSTR schema\Merge Products and Suppliers.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Populate MSTR schema\Sort Products SupplierID.Outputs[Sort Output]" />
             <path
+              refId="Package\Populate MSTR schema.Paths[Sort Output3]"
+              endId="Package\Populate MSTR schema\Merge Employees and EmployeeTerritories.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Populate MSTR schema\Sort Employees EmployeeID.Outputs[Sort Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Sort Output4]"
+              endId="Package\Populate MSTR schema\Merge Territories and Regions.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Populate MSTR schema\Sort Region RegionID.Outputs[Sort Output]" />
+            <path
               refId="Package\Populate MSTR schema.Paths[Sort Output5]"
+              endId="Package\Populate MSTR schema\Merge Employees and EmployeeTerritories.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Populate MSTR schema\Sort EmployeeTerritories EmployeeID.Outputs[Sort Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Sort Output6]"
+              endId="Package\Populate MSTR schema\Merge Orders and OrderDetails.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Populate MSTR schema\Sort OrderDetails OrderID.Outputs[Sort Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Sort Output7]"
+              endId="Package\Populate MSTR schema\Merge Territories and EmployeeTerritories.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Populate MSTR schema\Sort EmployeeTerritories TerritoryIDs.Outputs[Sort Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Sort Output8]"
+              endId="Package\Populate MSTR schema\Merge Products and Suppliers.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Populate MSTR schema\Sort Suppliers SupplierID.Outputs[Sort Output]" />
+            <path
+              refId="Package\Populate MSTR schema.Paths[Sort Output9]"
               endId="Package\Populate MSTR schema\Merge Products and Categories.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Populate MSTR schema\Sort Categories CategoryID.Outputs[Sort Output]" />
             <path
               refId="Package\Populate MSTR schema.Paths[Sort Output11]"
-              endId="Package\Populate MSTR schema\Merge Products and Categories.Inputs[Merge Join Left Input]"
+              endId="Package\Populate MSTR schema\Merge Territories and Regions.Inputs[Merge Join Left Input]"
               name="Sort Output"
-              startId="Package\Populate MSTR schema\Sort Products CategoryID.Outputs[Sort Output]" />
+              startId="Package\Populate MSTR schema\Sort  Territories RegionID.Outputs[Sort Output]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Union All Output 11]"
+              refId="Package\Populate MSTR schema.Paths[Union All Output 1]"
               endId="Package\Populate MSTR schema\Derived Column MSTR Orders ValidFrom.Inputs[Derived Column Input]"
               name="Union All Output 1"
               startId="Package\Populate MSTR schema\Union All MSTR Orders.Outputs[Union All Output 1]" />
             <path
-              refId="Package\Populate MSTR schema.Paths[Union All Output 1]"
+              refId="Package\Populate MSTR schema.Paths[Union All Output 11]"
               endId="Package\Populate MSTR schema\Derived Column MSTR Products ValidFrom.Inputs[Derived Column Input]"
               name="Union All Output 1"
               startId="Package\Populate MSTR schema\Union All MSTR Products.Outputs[Union All Output 1]" />
@@ -19859,7 +19859,6 @@
       DTS:refId="Package\Replace NULL values in staging tables"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Replace NULL values in staging tables"
-      DTS:Disabled="True"
       DTS:DTSID="{EC3B6E7D-17CE-4A8B-9A27-825B70D1D68B}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
@@ -20026,23 +20025,6 @@
         </DTS:Executable>
       </DTS:Executables>
     </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\Update null ShippedDates in MSTR Orders"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Update null ShippedDates in MSTR Orders"
-      DTS:DTSID="{59BECB61-2AE3-4E6D-9055-E1CB39D7654C}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Update null ShippedDates in MSTR Orders"
-      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{9978FA64-EE2D-431C-86A4-29563379DC64}"
-          SQLTask:SqlStatementSource="UPDATE [MSTR].[Orders]&#xA;SET [ShippedDate] = '9999-12-31'&#xA;WHERE [ShippedDate] IS NULL;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
-      </DTS:ObjectData>
-    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -20061,14 +20043,6 @@
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\Populate MSTR schema" />
-    <DTS:PrecedenceConstraint
-      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
-      DTS:CreationName=""
-      DTS:DTSID="{A9DDDC44-E7E5-4CCC-A030-7724EA53B396}"
-      DTS:From="Package\Populate MSTR schema"
-      DTS:LogicalAnd="True"
-      DTS:ObjectName="Constraint 2"
-      DTS:To="Package\Update null ShippedDates in MSTR Orders" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -20083,26 +20057,26 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="228.8,41.6"
+          Size="229,42"
           Id="Package\Check Database Integrity Task"
-          TopLeft="89.9,5.49999999999995" />
+          TopLeft="186.9,302.5" />
         <NodeLayout
-          Size="198.4,41.6"
+          Size="198,42"
           Id="Package\Populate MSTR schema"
-          TopLeft="105.1,622.3" />
+          TopLeft="1240.1,327.3" />
         <NodeLayout
-          Size="375.2,41.6"
+          Size="375,42"
           Id="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Create update statements to rplace null values in STG tables"
           TopLeft="5.5,5.50000000000007" />
         <NodeLayout
-          Size="207.2,41.6"
+          Size="207,42"
           Id="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Iterate through update staments\Execute update statement"
           TopLeft="5.5,5.50000000000007" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="218.4,102.4"
-          Size="218.4,145.6"
+          PanelSize="218,103"
+          Size="218,146"
           Id="Package\Replace NULL values in staging tables\Iterate through STG schema tables\Iterate through update staments"
           TopLeft="83.9,107.1" />
         <EdgeLayout
@@ -20130,35 +20104,43 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="386.4,308"
-          Size="386.4,351.2"
+          PanelSize="386,308"
+          Size="386,351"
           Id="Package\Replace NULL values in staging tables\Iterate through STG schema tables"
           TopLeft="5.50000000000006,5.50000000000003" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="397.6,412"
-          Size="397.6,455.2"
+          PanelSize="398,412"
+          Size="398,455"
           Id="Package\Replace NULL values in staging tables"
-          TopLeft="5.50000000000006,107.1" />
-        <NodeLayout
-          Size="276.8,41.6"
-          Id="Package\Update null ShippedDates in MSTR Orders"
-          TopLeft="65.9000000000001,723.9" />
+          TopLeft="612.5,112.1" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="204.3,47.1">
+          TopLeft="415.9,323.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="196.6,16.1000000000001"
               Start="0,0"
-              End="0,52.5">
+              End="189.1,16.1000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="94.3,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="94.3,0"
+                    Point2="98.3,0"
+                    Point3="98.3,4" />
+                  <mssgle:LineSegment
+                    End="98.3,12.1000000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="98.3,12.1000000000001"
+                    Point2="98.3,16.1000000000001"
+                    Point3="102.3,16.1000000000001" />
+                  <mssgle:LineSegment
+                    End="189.1,16.1000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20169,40 +20151,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="204.3,562.3">
+          TopLeft="1010.5,339.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="229.6,8.69999999999993"
               Start="0,0"
-              End="0,52.5">
+              End="222.1,8.69999999999993">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="204.3,663.9">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
+                    End="110.8,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="110.8,0"
+                    Point2="114.8,0"
+                    Point3="114.8,4" />
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="114.8,4.69999999999993" />
+                  <mssgle:CubicBezierSegment
+                    Point1="114.8,4.69999999999993"
+                    Point2="114.8,8.69999999999993"
+                    Point3="118.8,8.69999999999993" />
+                  <mssgle:LineSegment
+                    End="222.1,8.69999999999993" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20220,228 +20192,256 @@
       <GraphLayout
         Capacity="128" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="187.2,41.6"
+          Size="187,42"
           Id="Package\Populate MSTR schema\Insert MSTR Shippers"
-          TopLeft="3331.1,1123.1" />
+          TopLeft="3078.5,1127.5" />
         <NodeLayout
-          Size="201.6,41.6"
-          Id="Package\Populate MSTR schema\Sort Suppliers SupplierID"
-          TopLeft="1562.9,310.299999999999" />
-        <NodeLayout
-          Size="262.4,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command MSTR Products 2"
-          TopLeft="1601.5,716.699999999999" />
-        <NodeLayout
-          Size="279.2,41.6"
-          Id="Package\Populate MSTR schema\Derived Column MSTR Products ValidTo"
-          TopLeft="1986.1,716.699999999999" />
-        <NodeLayout
-          Size="252.8,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command MSTR Shippers"
-          TopLeft="3579.3,1123.1" />
-        <NodeLayout
-          Size="180,41.6"
-          Id="Package\Populate MSTR schema\Read STG Suppliers"
-          TopLeft="1567.7,208.7" />
-        <NodeLayout
-          Size="185.6,41.6"
-          Id="Package\Populate MSTR schema\Sort Region RegionID"
-          TopLeft="310.9,310.3" />
-        <NodeLayout
-          Size="183.2,41.6"
-          Id="Package\Populate MSTR schema\Read STG Territories"
-          TopLeft="57.0999999999998,208.7" />
-        <NodeLayout
-          Size="232,41.6"
-          Id="Package\Populate MSTR schema\Read STG EmployeeTerritories"
-          TopLeft="327.7,411.9" />
-        <NodeLayout
-          Size="291.2,41.6"
-          Id="Package\Populate MSTR schema\Derived Column MSTR Products ValidFrom"
-          TopLeft="1779.1,1021.5" />
-        <NodeLayout
-          Size="187.2,41.6"
-          Id="Package\Populate MSTR schema\Read STG Categories"
-          TopLeft="1831.1,5.49999999999973" />
-        <NodeLayout
-          Size="167.2,41.6"
-          Id="Package\Populate MSTR schema\Read STG Orders"
-          TopLeft="1150.1,208.7" />
-        <NodeLayout
-          Size="219.2,41.6"
+          Size="219,42"
           Id="Package\Populate MSTR schema\Sort Employees EmployeeID"
-          TopLeft="341.1,716.699999999999" />
+          TopLeft="2447.5,719.5" />
         <NodeLayout
-          Size="233.6,41.6"
-          Id="Package\Populate MSTR schema\Merge Products and Categories"
-          TopLeft="1807.9,208.7" />
-        <NodeLayout
-          Size="207.2,41.6"
-          Id="Package\Populate MSTR schema\Sort Territories TerritoryID"
-          TopLeft="45.0999999999998,513.5" />
-        <NodeLayout
-          Size="307.2,41.6"
-          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Employees"
-          TopLeft="297.1,1021.5" />
-        <NodeLayout
-          Size="287.2,41.6"
-          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Orders"
-          TopLeft="1090.1,615.099999999999" />
-        <NodeLayout
-          Size="168.8,41.6"
-          Id="Package\Populate MSTR schema\Read STG Region"
-          TopLeft="319.3,208.7" />
-        <NodeLayout
-          Size="305.6,41.6"
-          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Customers"
-          TopLeft="2335.9,1021.5" />
-        <NodeLayout
-          Size="215.2,41.6"
-          Id="Package\Populate MSTR schema\Convert merged Employees"
-          TopLeft="343.1,919.9" />
-        <NodeLayout
-          Size="193.6,41.6"
-          Id="Package\Populate MSTR schema\Convert merged Orders"
-          TopLeft="1136.9,513.499999999999" />
-        <NodeLayout
-          Size="177.6,41.6"
-          Id="Package\Populate MSTR schema\Sort Orders OrderID"
-          TopLeft="1144.9,310.299999999999" />
-        <NodeLayout
-          Size="188,41.6"
-          Id="Package\Populate MSTR schema\Read STG Employees"
-          TopLeft="356.7,615.099999999999" />
-        <NodeLayout
-          Size="263.2,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command MSTR Customers"
-          TopLeft="2685.1,1123.1" />
-        <NodeLayout
-          Size="296,41.6"
-          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Shippers"
-          TopLeft="3276.7,1021.5" />
-        <NodeLayout
-          Size="264,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command MSTR Employees"
-          TopLeft="647.7,1123.1" />
-        <NodeLayout
-          Size="196,41.6"
-          Id="Package\Populate MSTR schema\Read STG OrderDetails"
-          TopLeft="882.7,208.7" />
-        <NodeLayout
-          Size="164,41.6"
-          Id="Package\Populate MSTR schema\Convert Shippers"
-          TopLeft="3342.7,919.899999999999" />
-        <NodeLayout
-          Size="204,41.6"
-          Id="Package\Populate MSTR schema\Convert merged Products"
-          TopLeft="1822.7,513.499999999999" />
-        <NodeLayout
-          Size="206.4,41.6"
+          Size="206,42"
           Id="Package\Populate MSTR schema\Sort OrderDetails OrderID"
-          TopLeft="877.5,310.299999999999" />
+          TopLeft="1033,311.5" />
         <NodeLayout
-          Size="176.8,41.6"
-          Id="Package\Populate MSTR schema\Read STG Products"
-          TopLeft="1566.3,5.49999999999973" />
-        <NodeLayout
-          Size="214.4,41.6"
-          Id="Package\Populate MSTR schema\Sort Categories CategoryID"
-          TopLeft="1817.5,107.1" />
-        <NodeLayout
-          Size="232.8,41.6"
-          Id="Package\Populate MSTR schema\Merge Orders and OrderDetails"
-          TopLeft="1117.3,411.899999999999" />
-        <NodeLayout
-          Size="212.8,41.6"
-          Id="Package\Populate MSTR schema\Populate MSTR Customers"
-          TopLeft="2079.3,1123.1" />
-        <NodeLayout
-          Size="262.4,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command MSTR Products 3"
-          TopLeft="2325.5,716.699999999999" />
-        <NodeLayout
-          Size="187.2,41.6"
-          Id="Package\Populate MSTR schema\Insert MSTR Products"
-          TopLeft="1831.1,1123.1" />
-        <NodeLayout
-          Size="227.2,41.6"
-          Id="Package\Populate MSTR schema\Merge Territories and Regions"
-          TopLeft="35.0999999999998,411.9" />
-        <NodeLayout
-          Size="252.8,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command MSTR Products"
-          TopLeft="1999.3,818.299999999999" />
-        <NodeLayout
-          Size="289.6,41.6"
-          Id="Package\Populate MSTR schema\Merge Employees and EmployeeTerritories"
-          TopLeft="305.9,818.3" />
-        <NodeLayout
-          Size="272.8,41.6"
+          Size="273,42"
           Id="Package\Populate MSTR schema\OLE DB Command MSTR Employees 2"
-          TopLeft="314.3,1123.1" />
+          TopLeft="2420.5,1127.5" />
         <NodeLayout
-          Size="296,41.6"
-          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Products"
-          TopLeft="1776.7,615.099999999999" />
+          Size="279,42"
+          Id="Package\Populate MSTR schema\Derived Column MSTR Products ValidTo"
+          TopLeft="1462.5,719.5" />
         <NodeLayout
-          Size="187.2,41.6"
-          Id="Package\Populate MSTR schema\Read STG Customers"
-          TopLeft="2395.1,818.299999999999" />
-        <NodeLayout
-          Size="227.2,41.6"
-          Id="Package\Populate MSTR schema\Merge Products and Suppliers"
-          TopLeft="1811.1,411.899999999999" />
-        <NodeLayout
-          Size="203.2,41.6"
-          Id="Package\Populate MSTR schema\Sort  Territories RegionID"
-          TopLeft="47.0999999999998,310.3" />
-        <NodeLayout
-          Size="200,41.6"
-          Id="Package\Populate MSTR schema\Sort Products SupplierID"
-          TopLeft="1824.7,310.299999999999" />
-        <NodeLayout
-          Size="262.4,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command MSTR Shippers 2"
-          TopLeft="3008.5,1123.1" />
-        <NodeLayout
-          Size="264,41.6"
+          Size="264,42"
           Id="Package\Populate MSTR schema\Sort EmployeeTerritories EmployeeID"
-          TopLeft="16.6999999999998,716.699999999999" />
+          TopLeft="2727,719.5" />
         <NodeLayout
-          Size="204,41.6"
-          Id="Package\Populate MSTR schema\Sort Products CategoryID"
-          TopLeft="1552.7,107.1" />
+          Size="186,42"
+          Id="Package\Populate MSTR schema\Sort Region RegionID"
+          TopLeft="2471,311.5" />
         <NodeLayout
-          Size="176.8,41.6"
-          Id="Package\Populate MSTR schema\Read STG Shippers"
-          TopLeft="3336.3,818.299999999999" />
+          Size="183,42"
+          Id="Package\Populate MSTR schema\Read STG Territories"
+          TopLeft="2217.5,209.5" />
         <NodeLayout
-          Size="203.2,41.6"
-          Id="Package\Populate MSTR schema\Union All MSTR Products"
-          TopLeft="1823.1,919.9" />
+          Size="262,42"
+          Id="Package\Populate MSTR schema\OLE DB Command MSTR Products 2"
+          TopLeft="2125,719.5" />
         <NodeLayout
-          Size="198.4,41.6"
-          Id="Package\Populate MSTR schema\Insert MSTR Employees"
-          TopLeft="55.4999999999998,1123.1" />
+          Size="214,42"
+          Id="Package\Populate MSTR schema\Sort Categories CategoryID"
+          TopLeft="1832,107.5" />
         <NodeLayout
-          Size="260.8,41.6"
-          Id="Package\Populate MSTR schema\Sort EmployeeTerritories TerritoryIDs"
-          TopLeft="313.3,513.5" />
+          Size="291,42"
+          Id="Package\Populate MSTR schema\Derived Column MSTR Products ValidFrom"
+          TopLeft="1255.5,1025.5" />
         <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\Populate MSTR schema\Convert Customers"
-          TopLeft="2401.5,919.899999999999" />
+          Size="187,42"
+          Id="Package\Populate MSTR schema\Read STG Categories"
+          TopLeft="1845.5,5.49999999999977" />
         <NodeLayout
-          Size="286.4,41.6"
-          Id="Package\Populate MSTR schema\Merge Territories and EmployeeTerritories"
-          TopLeft="5.49999999999983,615.099999999999" />
+          Size="167,42"
+          Id="Package\Populate MSTR schema\Read STG Orders"
+          TopLeft="799.5,209.5" />
         <NodeLayout
-          Size="272,41.6"
+          Size="178,42"
+          Id="Package\Populate MSTR schema\Sort Orders OrderID"
+          TopLeft="794,311.5" />
+        <NodeLayout
+          Size="242,42"
+          Id="Package\Populate MSTR schema\OLE DB Command MSTR Orders 3"
+          TopLeft="1082,821.5" />
+        <NodeLayout
+          Size="207,42"
+          Id="Package\Populate MSTR schema\Sort Territories TerritoryID"
+          TopLeft="2460.5,515.5" />
+        <NodeLayout
+          Size="258,42"
+          Id="Package\Populate MSTR schema\Derived Column MSTR Orders ValidTo"
+          TopLeft="1082,719.5" />
+        <NodeLayout
+          Size="234,42"
+          Id="Package\Populate MSTR schema\Merge Products and Categories"
+          TopLeft="1552,209.5" />
+        <NodeLayout
+          Size="272,42"
           Id="Package\Populate MSTR schema\OLE DB Command MSTR Customers 2"
-          TopLeft="2352.7,1123.1" />
+          TopLeft="603,1127.5" />
+        <NodeLayout
+          Size="187,42"
+          Id="Package\Populate MSTR schema\Read STG Customers"
+          TopLeft="317.5,821.5" />
+        <NodeLayout
+          Size="203,42"
+          Id="Package\Populate MSTR schema\Sort  Territories RegionID"
+          TopLeft="2207.5,311.5" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Populate MSTR schema\Insert MSTR Orders"
+          TopLeft="935.5,1127.5" />
+        <NodeLayout
+          Size="270,42"
+          Id="Package\Populate MSTR schema\Derived Column MSTR Orders ValidFrom"
+          TopLeft="886,1025.5" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Populate MSTR schema\Sort Products CategoryID"
+          TopLeft="1567,107.5" />
+        <NodeLayout
+          Size="234,42"
+          Id="Package\Populate MSTR schema\OLE DB Command MSTR Orders"
+          TopLeft="726,719.5" />
+        <NodeLayout
+          Size="215,42"
+          Id="Package\Populate MSTR schema\Convert merged Employees"
+          TopLeft="2449.5,923.5" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Populate MSTR schema\Read STG Employees"
+          TopLeft="2463,617.5" />
+        <NodeLayout
+          Size="194,42"
+          Id="Package\Populate MSTR schema\Convert merged Orders"
+          TopLeft="924,515.5" />
+        <NodeLayout
+          Size="246,42"
+          Id="Package\Populate MSTR schema\OLE DB Command  MSTR Orders 2"
+          TopLeft="419,719.5" />
+        <NodeLayout
+          Size="196,42"
+          Id="Package\Populate MSTR schema\Read STG OrderDetails"
+          TopLeft="1038,209.5" />
+        <NodeLayout
+          Size="264,42"
+          Id="Package\Populate MSTR schema\OLE DB Command MSTR Employees"
+          TopLeft="2754,1127.5" />
+        <NodeLayout
+          Size="296,42"
+          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Shippers"
+          TopLeft="3305,1025.5" />
+        <NodeLayout
+          Size="307,42"
+          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Employees"
+          TopLeft="2403.5,1025.5" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Populate MSTR schema\Convert Shippers"
+          TopLeft="3371,923.5" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Populate MSTR schema\Convert merged Products"
+          TopLeft="1299,515.5" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Populate MSTR schema\Read STG Products"
+          TopLeft="1580.5,5.49999999999977" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Populate MSTR schema\Read STG Suppliers"
+          TopLeft="1311,209.5" />
+        <NodeLayout
+          Size="213,42"
+          Id="Package\Populate MSTR schema\Populate MSTR Customers"
+          TopLeft="5.5,1127.5" />
+        <NodeLayout
+          Size="262,42"
+          Id="Package\Populate MSTR schema\OLE DB Command MSTR Products 3"
+          TopLeft="1802,719.5" />
+        <NodeLayout
+          Size="233,42"
+          Id="Package\Populate MSTR schema\Merge Orders and OrderDetails"
+          TopLeft="904.5,413.5" />
+        <NodeLayout
+          Size="306,42"
+          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Customers"
+          TopLeft="258,1025.5" />
+        <NodeLayout
+          Size="200,42"
+          Id="Package\Populate MSTR schema\Sort Products SupplierID"
+          TopLeft="1563,311.5" />
+        <NodeLayout
+          Size="253,42"
+          Id="Package\Populate MSTR schema\OLE DB Command MSTR Products"
+          TopLeft="1475.5,821.5" />
+        <NodeLayout
+          Size="187,42"
+          Id="Package\Populate MSTR schema\Insert MSTR Products"
+          TopLeft="1307.5,1127.5" />
+        <NodeLayout
+          Size="227,42"
+          Id="Package\Populate MSTR schema\Merge Territories and Regions"
+          TopLeft="2450.5,413.5" />
+        <NodeLayout
+          Size="232,42"
+          Id="Package\Populate MSTR schema\Read STG EmployeeTerritories"
+          TopLeft="2743,413.5" />
+        <NodeLayout
+          Size="261,42"
+          Id="Package\Populate MSTR schema\Sort EmployeeTerritories TerritoryIDs"
+          TopLeft="2728.5,515.5" />
+        <NodeLayout
+          Size="290,42"
+          Id="Package\Populate MSTR schema\Merge Employees and EmployeeTerritories"
+          TopLeft="2412,821.5" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Populate MSTR schema\OLE DB Command MSTR Customers"
+          TopLeft="279.5,1127.5" />
+        <NodeLayout
+          Size="169,42"
+          Id="Package\Populate MSTR schema\Read STG Region"
+          TopLeft="2479.5,209.5" />
+        <NodeLayout
+          Size="253,42"
+          Id="Package\Populate MSTR schema\OLE DB Command MSTR Shippers"
+          TopLeft="3326.5,1127.5" />
+        <NodeLayout
+          Size="227,42"
+          Id="Package\Populate MSTR schema\Merge Products and Suppliers"
+          TopLeft="1287.5,413.5" />
+        <NodeLayout
+          Size="262,42"
+          Id="Package\Populate MSTR schema\OLE DB Command MSTR Shippers 2"
+          TopLeft="3640,1127.5" />
+        <NodeLayout
+          Size="287,42"
+          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Orders"
+          TopLeft="877.5,617.5" />
+        <NodeLayout
+          Size="296,42"
+          Id="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Products"
+          TopLeft="1253,617.5" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Populate MSTR schema\Read STG Shippers"
+          TopLeft="3364.5,821.5" />
+        <NodeLayout
+          Size="203,42"
+          Id="Package\Populate MSTR schema\Union All MSTR Products"
+          TopLeft="1299.5,923.5" />
+        <NodeLayout
+          Size="202,42"
+          Id="Package\Populate MSTR schema\Sort Suppliers SupplierID"
+          TopLeft="1300,311.5" />
+        <NodeLayout
+          Size="198,42"
+          Id="Package\Populate MSTR schema\Insert MSTR Employees"
+          TopLeft="2162,1127.5" />
+        <NodeLayout
+          Size="187,42"
+          Id="Package\Populate MSTR schema\Union All MSTR Orders"
+          TopLeft="927.5,923.5" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\Populate MSTR schema\Convert Customers"
+          TopLeft="324,923.5" />
+        <NodeLayout
+          Size="286,42"
+          Id="Package\Populate MSTR schema\Merge Territories and EmployeeTerritories"
+          TopLeft="2716,617.5" />
         <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output5]"
-          TopLeft="450.7,656.699999999999">
+          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output2]"
+          TopLeft="2309,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -20453,72 +20453,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output4]"
-          TopLeft="148.7,250.3">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output3]"
-          TopLeft="403.7,250.3">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output2]"
-          TopLeft="3424.7,859.899999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
-              Start="0,0"
-              End="0,52.5000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20529,205 +20463,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[OLE DB Source Output1]"
-          TopLeft="443.7,453.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
-              Start="0,0"
-              End="0,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output]"
-          TopLeft="2488.7,859.899999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
-              Start="0,0"
-              End="0,52.5000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[OLE DB Command Output]"
-          TopLeft="2125.7,859.899999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-168.466666666667,60.0000000000001"
-              Start="0,0"
-              End="-168.466666666667,52.5000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.7187500000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.7187500000001"
-                    Point2="0,35.7187500000001"
-                    Point3="-4,35.7187500000001" />
-                  <mssgle:LineSegment
-                    End="-164.466666666667,35.7187500000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-164.466666666667,35.7187500000001"
-                    Point2="-168.466666666667,35.7187500000001"
-                    Point3="-168.466666666667,39.7187500000001" />
-                  <mssgle:LineSegment
-                    End="-168.466666666667,52.5000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[New Output3]"
-          TopLeft="3424.7,1063.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000005"
-              Start="0,0"
-              End="0,52.5000000000005">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5000000000005" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-27.09138671875,20.5332031250002,54.1827734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[New Output2]"
-          TopLeft="1894.03333333333,656.699999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,263.2"
-              Start="0,0"
-              End="0,255.7">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,255.7" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-27.09138671875,122.133203125,54.1827734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[New Output1]"
-          TopLeft="2414.3,1063.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-228.6,60.0000000000002"
-              Start="0,0"
-              End="-228.6,52.5000000000002">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.3460207612457" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.3460207612457"
-                    Point2="0,20.3460207612457"
-                    Point3="-4,20.3460207612457" />
-                  <mssgle:LineSegment
-                    End="-224.6,20.3460207612457" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-224.6,20.3460207612457"
-                    Point2="-228.6,20.3460207612457"
-                    Point3="-228.6,24.3460207612457" />
-                  <mssgle:LineSegment
-                    End="-228.6,52.5000000000002" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-141.39138671875,25.3460207612457,54.1827734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[New Output]"
-          TopLeft="375.9,1063.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-221.2,60.0000000000005"
-              Start="0,0"
-              End="-221.2,52.5000000000005">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.344234079174" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.344234079174"
-                    Point2="0,20.344234079174"
-                    Point3="-4,20.344234079174" />
-                  <mssgle:LineSegment
-                    End="-217.2,20.344234079174" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-217.2,20.344234079174"
-                    Point2="-221.2,20.344234079174"
-                    Point3="-221.2,24.344234079174" />
-                  <mssgle:LineSegment
-                    End="-221.2,52.5000000000005" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-137.69138671875,25.344234079174,54.1827734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Merge Join Output5]"
-          TopLeft="148.7,656.699999999999">
+          TopLeft="3453,863.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -20748,8 +20484,278 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Merge Join Output4]"
-          TopLeft="450.7,859.9">
+          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output]"
+          TopLeft="2859,455.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[OLE DB Command Output1]"
+          TopLeft="1602,863.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-168.5,60.0000000000001"
+              Start="0,0"
+              End="-168.5,52.5000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.7184750733138" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.7184750733138"
+                    Point2="0,35.7184750733138"
+                    Point3="-4,35.7184750733138" />
+                  <mssgle:LineSegment
+                    End="-164.5,35.7184750733138" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-164.5,35.7184750733138"
+                    Point2="-168.5,35.7184750733138"
+                    Point3="-168.5,39.7184750733138" />
+                  <mssgle:LineSegment
+                    End="-168.5,52.5000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[OLE DB Command Output]"
+          TopLeft="1203,863.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-152.166666666667,60"
+              Start="0,0"
+              End="-152.166666666667,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.694591728526" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.694591728526"
+                    Point2="0,35.694591728526"
+                    Point3="-4,35.694591728526" />
+                  <mssgle:LineSegment
+                    End="-148.166666666667,35.694591728526" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-148.166666666667,35.694591728526"
+                    Point2="-152.166666666667,35.694591728526"
+                    Point3="-152.166666666667,39.694591728526" />
+                  <mssgle:LineSegment
+                    End="-152.166666666667,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[New Output4]"
+          TopLeft="3381,1067.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-209,60"
+              Start="0,0"
+              End="-209,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.3571428571429" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.3571428571429"
+                    Point2="0,20.3571428571429"
+                    Point3="-4,20.3571428571429" />
+                  <mssgle:LineSegment
+                    End="-205,20.3571428571429" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-205,20.3571428571429"
+                    Point2="-209,20.3571428571429"
+                    Point3="-209,24.3571428571429" />
+                  <mssgle:LineSegment
+                    End="-209,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-131.59138671875,25.3571428571429,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[New Output3]"
+          TopLeft="336.5,1067.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-224.5,60"
+              Start="0,0"
+              End="-224.5,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.3455723542117" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.3455723542117"
+                    Point2="0,20.3455723542117"
+                    Point3="-4,20.3455723542117" />
+                  <mssgle:LineSegment
+                    End="-220.5,20.3455723542117" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-220.5,20.3455723542117"
+                    Point2="-224.5,20.3455723542117"
+                    Point3="-224.5,24.3455723542117" />
+                  <mssgle:LineSegment
+                    End="-224.5,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-139.34138671875,25.3455723542117,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[New Output2]"
+          TopLeft="2482.25,1067.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-221.25,60.0000000000002"
+              Start="0,0"
+              End="-221.25,52.5000000000002">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.3444564047364" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.3444564047364"
+                    Point2="0,20.3444564047364"
+                    Point3="-4,20.3444564047364" />
+                  <mssgle:LineSegment
+                    End="-217.25,20.3444564047364" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-217.25,20.3444564047364"
+                    Point2="-221.25,20.3444564047364"
+                    Point3="-221.25,24.3444564047364" />
+                  <mssgle:LineSegment
+                    End="-221.25,52.5000000000002" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-137.71638671875,25.3444564047364,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[New Output1]"
+          TopLeft="1314.6,659.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="53.9000000000001,264"
+              Start="0,0"
+              End="53.9000000000001,256.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,96.2547071256772" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,96.2547071256772"
+                    Point2="0,100.254707125677"
+                    Point3="4,100.254707125677" />
+                  <mssgle:LineSegment
+                    End="49.9000000000001,100.254707125677" />
+                  <mssgle:CubicBezierSegment
+                    Point1="49.9000000000001,100.254707125677"
+                    Point2="53.9000000000001,100.254707125677"
+                    Point3="53.9000000000001,104.254707125677" />
+                  <mssgle:LineSegment
+                    End="53.9000000000001,256.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-0.141386718749956,105.254707125677,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[New Output]"
+          TopLeft="1048.9,659.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-57.7333333333335,264"
+              Start="0,0"
+              End="-57.7333333333335,256.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,139.068627860608" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,139.068627860608"
+                    Point2="0,143.068627860608"
+                    Point3="-4,143.068627860608" />
+                  <mssgle:LineSegment
+                    End="-53.7333333333335,143.068627860608" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-53.7333333333335,143.068627860608"
+                    Point2="-57.7333333333335,143.068627860608"
+                    Point3="-57.7333333333335,147.068627860608" />
+                  <mssgle:LineSegment
+                    End="-57.7333333333335,256.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-55.9580533854167,148.068627860608,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Merge Join Output5]"
+          TopLeft="2859,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -20761,6 +20767,28 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,52.5000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Merge Join Output4]"
+          TopLeft="1401,455.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20771,18 +20799,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Merge Join Output3]"
-          TopLeft="1233.7,453.499999999999">
+          TopLeft="1666,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20793,18 +20821,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Merge Join Output2]"
-          TopLeft="148.7,453.5">
+          TopLeft="1021,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20815,18 +20843,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Merge Join Output1]"
-          TopLeft="1924.7,250.3">
+          TopLeft="2557,863.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20837,18 +20865,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Merge Join Output]"
-          TopLeft="1924.7,453.499999999999">
+          TopLeft="2564,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20858,122 +20886,14 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output3]"
-          TopLeft="525.5,1063.1">
+          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output4]"
+          TopLeft="1487.4,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="254.2,60.0000000000002"
+              EndConnector="768.6,60"
               Start="0,0"
-              End="254.2,52.5000000000002">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.3442340791739" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.3442340791739"
-                    Point2="0,20.3442340791739"
-                    Point3="4,20.3442340791739" />
-                  <mssgle:LineSegment
-                    End="250.2,20.3442340791739" />
-                  <mssgle:CubicBezierSegment
-                    Point1="250.2,20.3442340791739"
-                    Point2="254.2,20.3442340791739"
-                    Point3="254.2,24.3442340791739" />
-                  <mssgle:LineSegment
-                    End="254.2,52.5000000000002" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="52.69701171875,25.3442340791739,148.8059765625,11.658203125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output2]"
-          TopLeft="3496.7,1063.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="209,60.0000000000005"
-              Start="0,0"
-              End="209,52.5000000000005">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.357142857143" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.357142857143"
-                    Point2="0,20.357142857143"
-                    Point3="4,20.357142857143" />
-                  <mssgle:LineSegment
-                    End="205,20.357142857143" />
-                  <mssgle:CubicBezierSegment
-                    Point1="205,20.357142857143"
-                    Point2="209,20.357142857143"
-                    Point3="209,24.357142857143" />
-                  <mssgle:LineSegment
-                    End="209,52.5000000000005" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="30.09701171875,25.357142857143,148.8059765625,11.658203125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output1]"
-          TopLeft="2563.1,1063.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="253.6,60.0000000000002"
-              Start="0,0"
-              End="253.6,52.5000000000002">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.3460207612458" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.3460207612458"
-                    Point2="0,20.3460207612458"
-                    Point3="4,20.3460207612458" />
-                  <mssgle:LineSegment
-                    End="249.6,20.3460207612458" />
-                  <mssgle:CubicBezierSegment
-                    Point1="249.6,20.3460207612458"
-                    Point2="253.6,20.3460207612458"
-                    Point3="253.6,24.3460207612458" />
-                  <mssgle:LineSegment
-                    End="253.6,52.5000000000002" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="52.3970117187502,25.3460207612458,148.8059765625,11.658203125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output]"
-          TopLeft="1838.3,656.699999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-105.6,60"
-              Start="0,0"
-              End="-105.6,52.5">
+              End="768.6,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -20982,34 +20902,190 @@
                   <mssgle:CubicBezierSegment
                     Point1="0,13.6335877862595"
                     Point2="0,17.6335877862595"
-                    Point3="-4,17.6335877862595" />
+                    Point3="4,17.6335877862595" />
                   <mssgle:LineSegment
-                    End="-101.6,17.6335877862595" />
+                    End="764.6,17.6335877862595" />
                   <mssgle:CubicBezierSegment
-                    Point1="-101.6,17.6335877862595"
-                    Point2="-105.6,17.6335877862595"
-                    Point3="-105.6,21.6335877862595" />
+                    Point1="764.6,17.6335877862595"
+                    Point2="768.6,17.6335877862595"
+                    Point3="768.6,21.6335877862595" />
                   <mssgle:LineSegment
-                    End="-105.6,52.5" />
+                    End="768.6,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-127.20298828125,22.6335877862595,148.8059765625,11.658203125"
+              BoundingBox="309.89701171875,22.6335877862595,148.8059765625,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output3]"
+          TopLeft="411,1067.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-74.40298828125,20.4208984375,148.8059765625,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output2]"
+          TopLeft="3453,1067.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-74.40298828125,20.4208984375,148.8059765625,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output1]"
+          TopLeft="2631.75,1067.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="254.25,60"
+              Start="0,0"
+              End="254.25,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.3444564047363" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.3444564047363"
+                    Point2="0,20.3444564047363"
+                    Point3="4,20.3444564047363" />
+                  <mssgle:LineSegment
+                    End="250.25,20.3444564047363" />
+                  <mssgle:CubicBezierSegment
+                    Point1="250.25,20.3444564047363"
+                    Point2="254.25,20.3444564047363"
+                    Point3="254.25,24.3444564047363" />
+                  <mssgle:LineSegment
+                    End="254.25,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="52.72201171875,25.3444564047363,148.8059765625,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output]"
+          TopLeft="937.3,659.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-395.3,60.0000000000001"
+              Start="0,0"
+              End="-395.3,52.5000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.6487948844073" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.6487948844073"
+                    Point2="0,17.6487948844073"
+                    Point3="-4,17.6487948844073" />
+                  <mssgle:LineSegment
+                    End="-391.3,17.6487948844073" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-391.3,17.6487948844073"
+                    Point2="-395.3,17.6487948844073"
+                    Point3="-395.3,21.6487948844073" />
+                  <mssgle:LineSegment
+                    End="-395.3,52.5000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-272.05298828125,22.6487948844073,148.8059765625,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Historical Attribute Inserts Output1]"
+          TopLeft="1104.7,659.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="106.3,60.0000000000001"
+              Start="0,0"
+              End="106.3,52.5000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.6487948844073" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.6487948844073"
+                    Point2="0,17.6487948844073"
+                    Point3="4,17.6487948844073" />
+                  <mssgle:LineSegment
+                    End="102.3,17.6487948844073" />
+                  <mssgle:CubicBezierSegment
+                    Point1="102.3,17.6487948844073"
+                    Point2="106.3,17.6487948844073"
+                    Point3="106.3,21.6487948844073" />
+                  <mssgle:LineSegment
+                    End="106.3,52.5000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-21.90638671875,22.6487948844073,150.1127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Historical Attribute Inserts Output]"
-          TopLeft="1953.5,656.699999999999">
+          TopLeft="1372.2,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="172.2,60"
+              EndConnector="229.8,60"
               Start="0,0"
-              End="172.2,52.5">
+              End="229.8,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -21020,37 +21096,93 @@
                     Point2="0,26.7664670658683"
                     Point3="4,26.7664670658683" />
                   <mssgle:LineSegment
-                    End="168.2,26.7664670658683" />
+                    End="225.8,26.7664670658683" />
                   <mssgle:CubicBezierSegment
-                    Point1="168.2,26.7664670658683"
-                    Point2="172.2,26.7664670658683"
-                    Point3="172.2,30.7664670658683" />
+                    Point1="225.8,26.7664670658683"
+                    Point2="229.8,26.7664670658683"
+                    Point3="229.8,30.7664670658683" />
                   <mssgle:LineSegment
-                    End="172.2,52.5" />
+                    End="229.8,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="11.0436132812501,31.7664670658683,150.1127734375,11.609375"
+              BoundingBox="39.84361328125,31.7664670658683,150.1127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Derived Column Output1]"
-          TopLeft="2125.7,758.299999999999">
+          Id="Package\Populate MSTR schema.Paths[Derived Column Output3]"
+          TopLeft="1021,1067.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.5000000000001">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000001" />
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Derived Column Output2]"
+          TopLeft="1211,761.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-8,60"
+              Start="0,0"
+              End="-8,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-4,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-4,30"
+                    Point2="-8,30"
+                    Point3="-8,34" />
+                  <mssgle:LineSegment
+                    End="-8,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Derived Column Output1]"
+          TopLeft="1602,761.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21061,7 +21193,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Derived Column Output]"
-          TopLeft="1924.7,1063.1">
+          TopLeft="1401,1067.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -21083,7 +21215,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Data Conversion Output4]"
-          TopLeft="3424.7,961.499999999999">
+          TopLeft="411,965.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -21105,18 +21237,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Data Conversion Output3]"
-          TopLeft="2488.7,961.499999999999">
+          TopLeft="1401,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.5000000000001">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000001" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21127,7 +21259,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Data Conversion Output2]"
-          TopLeft="1233.7,555.099999999999">
+          TopLeft="2557,965.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -21149,7 +21281,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Data Conversion Output1]"
-          TopLeft="450.7,961.5">
+          TopLeft="3453,965.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -21171,18 +21303,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Data Conversion Output]"
-          TopLeft="1924.7,555.099999999999">
+          TopLeft="1021,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21192,139 +21324,187 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output3]"
-          TopLeft="2011.1,656.699999999999">
+          Id="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output4]"
+          TopLeft="485.5,1067.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="445.6,59.9999999999999"
+              EndConnector="253.5,60"
               Start="0,0"
-              End="445.6,52.4999999999999">
+              End="253.5,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.6335877862595" />
+                    End="0,16.3455723542117" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.6335877862595"
-                    Point2="0,17.6335877862595"
-                    Point3="4,17.6335877862595" />
+                    Point1="0,16.3455723542117"
+                    Point2="0,20.3455723542117"
+                    Point3="4,20.3455723542117" />
                   <mssgle:LineSegment
-                    End="441.6,17.6335877862595" />
+                    End="249.5,20.3455723542117" />
                   <mssgle:CubicBezierSegment
-                    Point1="441.6,17.6335877862595"
-                    Point2="445.6,17.6335877862595"
-                    Point3="445.6,21.6335877862595" />
+                    Point1="249.5,20.3455723542117"
+                    Point2="253.5,20.3455723542117"
+                    Point3="253.5,24.3455723542117" />
                   <mssgle:LineSegment
-                    End="445.6,52.4999999999999" />
+                    End="253.5,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="144.26609375,22.6335877862595,157.0678125,11.6630859375"
+              BoundingBox="48.21609375,25.3455723542117,157.0678125,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output3]"
+          TopLeft="3525,1067.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="246,60"
+              Start="0,0"
+              End="246,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.3571428571429" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.3571428571429"
+                    Point2="0,20.3571428571429"
+                    Point3="4,20.3571428571429" />
+                  <mssgle:LineSegment
+                    End="242,20.3571428571429" />
+                  <mssgle:CubicBezierSegment
+                    Point1="242,20.3571428571429"
+                    Point2="246,20.3571428571429"
+                    Point3="246,24.3571428571429" />
+                  <mssgle:LineSegment
+                    End="246,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="44.46609375,25.3571428571429,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output2]"
-          TopLeft="450.7,1063.1">
+          TopLeft="993.1,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000005"
+              EndConnector="-150.1,60.0000000000001"
               Start="0,0"
-              End="0,52.5000000000005">
+              End="-150.1,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000005" />
+                    End="0,22.769587032034" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.769587032034"
+                    Point2="0,26.769587032034"
+                    Point3="-4,26.769587032034" />
+                  <mssgle:LineSegment
+                    End="-146.1,26.769587032034" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-146.1,26.769587032034"
+                    Point2="-150.1,26.769587032034"
+                    Point3="-150.1,30.769587032034" />
+                  <mssgle:LineSegment
+                    End="-150.1,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-78.53390625,20.4184570312502,157.0678125,11.6630859375"
+              BoundingBox="-153.58390625,31.769587032034,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output1]"
-          TopLeft="2488.7,1063.1">
+          TopLeft="2557,1067.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000002"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.5000000000002">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000002" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-78.53390625,20.4184570312501,157.0678125,11.6630859375"
+              BoundingBox="-78.53390625,20.41845703125,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output]"
-          TopLeft="3352.7,1063.1">
+          TopLeft="1429.8,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-213,60.0000000000005"
+              EndConnector="503.2,60"
               Start="0,0"
-              End="-213,52.5000000000005">
+              End="503.2,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.357142857143" />
+                    End="0,22.7664670658683" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.357142857143"
-                    Point2="0,20.357142857143"
-                    Point3="-4,20.357142857143" />
+                    Point1="0,22.7664670658683"
+                    Point2="0,26.7664670658683"
+                    Point3="4,26.7664670658683" />
                   <mssgle:LineSegment
-                    End="-209,20.357142857143" />
+                    End="499.2,26.7664670658683" />
                   <mssgle:CubicBezierSegment
-                    Point1="-209,20.357142857143"
-                    Point2="-213,20.357142857143"
-                    Point3="-213,24.357142857143" />
+                    Point1="499.2,26.7664670658683"
+                    Point2="503.2,26.7664670658683"
+                    Point3="503.2,30.7664670658683" />
                   <mssgle:LineSegment
-                    End="-213,52.5000000000005" />
+                    End="503.2,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-185.03390625,25.357142857143,157.0678125,11.6630859375"
+              BoundingBox="173.06609375,31.7664670658683,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[ADO NET Source Output4]"
-          TopLeft="1924.7,47.0999999999997">
+          TopLeft="1939,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21335,18 +21515,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[ADO NET Source Output3]"
-          TopLeft="1233.7,250.3">
+          TopLeft="883,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21357,18 +21537,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[ADO NET Source Output2]"
-          TopLeft="1660.7,250.3">
+          TopLeft="1401,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21379,18 +21559,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[ADO NET Source Output1]"
-          TopLeft="1654.7,47.0999999999997">
+          TopLeft="1669,47.4999999999998">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21401,18 +21581,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[ADO NET Source Output]"
-          TopLeft="980.7,250.3">
+          TopLeft="1136,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.9999999999999"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.4999999999999">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.4999999999999" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21421,583 +21601,9 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Union All Output 1]"
-          TopLeft="1924.7,961.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000002"
-              Start="0,0"
-              End="0,52.5000000000002">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5000000000002" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output11]"
-          TopLeft="1654.7,148.7">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="232.4,59.9999999999999"
-              Start="0,0"
-              End="232.4,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.7551020408162" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.7551020408162"
-                    Point2="0,35.7551020408162"
-                    Point3="4,35.7551020408162" />
-                  <mssgle:LineSegment
-                    End="228.4,35.7551020408162" />
-                  <mssgle:CubicBezierSegment
-                    Point1="228.4,35.7551020408162"
-                    Point2="232.4,35.7551020408162"
-                    Point3="232.4,39.7551020408162" />
-                  <mssgle:LineSegment
-                    End="232.4,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output10]"
-          TopLeft="148.7,555.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-46.4,59.9999999999999"
-              Start="0,0"
-              End="-46.4,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.7999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.7999999999999"
-                    Point2="0,35.7999999999999"
-                    Point3="-4,35.7999999999999" />
-                  <mssgle:LineSegment
-                    End="-42.4,35.7999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-42.4,35.7999999999999"
-                    Point2="-46.4,35.7999999999999"
-                    Point3="-46.4,39.7999999999999" />
-                  <mssgle:LineSegment
-                    End="-46.4,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output9]"
-          TopLeft="450.7,758.3">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="46.9333333333333,60.0000000000001"
-              Start="0,0"
-              End="46.9333333333333,52.5000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.8021978021979" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.8021978021979"
-                    Point2="0,35.8021978021979"
-                    Point3="4,35.8021978021979" />
-                  <mssgle:LineSegment
-                    End="42.9333333333333,35.8021978021979" />
-                  <mssgle:CubicBezierSegment
-                    Point1="42.9333333333333,35.8021978021979"
-                    Point2="46.9333333333333,35.8021978021979"
-                    Point3="46.9333333333333,39.8021978021979" />
-                  <mssgle:LineSegment
-                    End="46.9333333333333,52.5000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output8]"
-          TopLeft="148.7,758.3">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="255.066666666667,60.0000000000001"
-              Start="0,0"
-              End="255.066666666667,52.5000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.8021978021979" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.8021978021979"
-                    Point2="0,35.8021978021979"
-                    Point3="4,35.8021978021979" />
-                  <mssgle:LineSegment
-                    End="251.066666666667,35.8021978021979" />
-                  <mssgle:CubicBezierSegment
-                    Point1="251.066666666667,35.8021978021979"
-                    Point2="255.066666666667,35.8021978021979"
-                    Point3="255.066666666667,39.8021978021979" />
-                  <mssgle:LineSegment
-                    End="255.066666666667,52.5000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output7]"
-          TopLeft="1233.7,351.899999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="37.4666666666667,59.9999999999999"
-              Start="0,0"
-              End="37.4666666666667,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.754266211604" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.754266211604"
-                    Point2="0,35.754266211604"
-                    Point3="4,35.754266211604" />
-                  <mssgle:LineSegment
-                    End="33.4666666666667,35.754266211604" />
-                  <mssgle:CubicBezierSegment
-                    Point1="33.4666666666667,35.754266211604"
-                    Point2="37.4666666666667,35.754266211604"
-                    Point3="37.4666666666667,39.754266211604" />
-                  <mssgle:LineSegment
-                    End="37.4666666666667,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output6]"
-          TopLeft="1924.7,351.899999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="36.5333333333335,59.9999999999999"
-              Start="0,0"
-              End="36.5333333333335,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.7482517482517" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.7482517482517"
-                    Point2="0,35.7482517482517"
-                    Point3="4,35.7482517482517" />
-                  <mssgle:LineSegment
-                    End="32.5333333333335,35.7482517482517" />
-                  <mssgle:CubicBezierSegment
-                    Point1="32.5333333333335,35.7482517482517"
-                    Point2="36.5333333333335,35.7482517482517"
-                    Point3="36.5333333333335,39.7482517482517" />
-                  <mssgle:LineSegment
-                    End="36.5333333333335,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output5]"
-          TopLeft="1924.7,148.7">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="37.6000000000001,59.9999999999999"
-              Start="0,0"
-              End="37.6000000000001,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.7551020408163" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.7551020408163"
-                    Point2="0,35.7551020408163"
-                    Point3="4,35.7551020408163" />
-                  <mssgle:LineSegment
-                    End="33.6000000000001,35.7551020408163" />
-                  <mssgle:CubicBezierSegment
-                    Point1="33.6000000000001,35.7551020408163"
-                    Point2="37.6000000000001,35.7551020408163"
-                    Point3="37.6000000000001,39.7551020408163" />
-                  <mssgle:LineSegment
-                    End="37.6000000000001,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output4]"
-          TopLeft="1663.7,351.899999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="224.466666666667,59.9999999999999"
-              Start="0,0"
-              End="224.466666666667,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.7482517482517" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.7482517482517"
-                    Point2="0,35.7482517482517"
-                    Point3="4,35.7482517482517" />
-                  <mssgle:LineSegment
-                    End="220.466666666667,35.7482517482517" />
-                  <mssgle:CubicBezierSegment
-                    Point1="220.466666666667,35.7482517482517"
-                    Point2="224.466666666667,35.7482517482517"
-                    Point3="224.466666666667,39.7482517482517" />
-                  <mssgle:LineSegment
-                    End="224.466666666667,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output3]"
-          TopLeft="980.7,351.899999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="215.533333333333,59.9999999999999"
-              Start="0,0"
-              End="215.533333333333,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.754266211604" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.754266211604"
-                    Point2="0,35.754266211604"
-                    Point3="4,35.754266211604" />
-                  <mssgle:LineSegment
-                    End="211.533333333333,35.754266211604" />
-                  <mssgle:CubicBezierSegment
-                    Point1="211.533333333333,35.754266211604"
-                    Point2="215.533333333333,35.754266211604"
-                    Point3="215.533333333333,39.754266211604" />
-                  <mssgle:LineSegment
-                    End="215.533333333333,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output2]"
-          TopLeft="148.7,351.9">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-36.5333333333333,59.9999999999999"
-              Start="0,0"
-              End="-36.5333333333333,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.7482517482517" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.7482517482517"
-                    Point2="0,35.7482517482517"
-                    Point3="-4,35.7482517482517" />
-                  <mssgle:LineSegment
-                    End="-32.5333333333333,35.7482517482517" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-32.5333333333333,35.7482517482517"
-                    Point2="-36.5333333333333,35.7482517482517"
-                    Point3="-36.5333333333333,39.7482517482517" />
-                  <mssgle:LineSegment
-                    End="-36.5333333333333,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output1]"
-          TopLeft="403.7,351.9">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-218.466666666667,59.9999999999999"
-              Start="0,0"
-              End="-218.466666666667,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.7482517482517" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.7482517482517"
-                    Point2="0,35.7482517482517"
-                    Point3="-4,35.7482517482517" />
-                  <mssgle:LineSegment
-                    End="-214.466666666667,35.7482517482517" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-214.466666666667,35.7482517482517"
-                    Point2="-218.466666666667,35.7482517482517"
-                    Point3="-218.466666666667,39.7482517482517" />
-                  <mssgle:LineSegment
-                    End="-218.466666666667,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Sort Output]"
-          TopLeft="443.7,555.1">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-248.6,59.9999999999999"
-              Start="0,0"
-              End="-248.6,52.4999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.7999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.7999999999999"
-                    Point2="0,35.7999999999999"
-                    Point3="-4,35.7999999999999" />
-                  <mssgle:LineSegment
-                    End="-244.6,35.7999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-244.6,35.7999999999999"
-                    Point2="-248.6,35.7999999999999"
-                    Point3="-248.6,39.7999999999999" />
-                  <mssgle:LineSegment
-                    End="-248.6,52.4999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="257.6,41.6"
-          Id="Package\Populate MSTR schema\Derived Column MSTR Orders ValidTo"
-          TopLeft="914.9,716.699999999999" />
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Historical Attribute Inserts Output1]"
-          TopLeft="1205.78,656.699999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-162.08,60.0000000000001"
-              Start="0,0"
-              End="-162.08,52.5000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.7695155816107" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.7695155816107"
-                    Point2="0,26.7695155816107"
-                    Point3="-4,26.7695155816107" />
-                  <mssgle:LineSegment
-                    End="-158.08,26.7695155816107" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-158.08,26.7695155816107"
-                    Point2="-162.08,26.7695155816107"
-                    Point3="-162.08,30.7695155816107" />
-                  <mssgle:LineSegment
-                    End="-162.08,52.5000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-156.09638671875,31.7695155816107,150.1127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="242.4,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command MSTR Orders 3"
-          TopLeft="930.5,818.3" />
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Derived Column Output2]"
-          TopLeft="1043.7,758.299999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="8,60.0000000000001"
-              Start="0,0"
-              End="8,52.5000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.0000000000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.0000000000001"
-                    Point2="0,30.0000000000001"
-                    Point3="4,30.0000000000001" />
-                  <mssgle:LineSegment
-                    End="4,30.0000000000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="4,30.0000000000001"
-                    Point2="8,30.0000000000001"
-                    Point3="8,34.0000000000001" />
-                  <mssgle:LineSegment
-                    End="8,52.5000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="187.2,41.6"
-          Id="Package\Populate MSTR schema\Union All MSTR Orders"
-          TopLeft="1140.1,919.9" />
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[New Output4]"
-          TopLeft="1262.59333333333,656.699999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,263.2"
-              Start="0,0"
-              End="0,255.7">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,255.7" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-27.09138671875,122.133203125,54.1827734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[OLE DB Command Output1]"
-          TopLeft="1051.7,859.9">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="152.133333333333,60.0000000000001"
-              Start="0,0"
-              End="152.133333333333,52.5000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.6949152542373" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.6949152542373"
-                    Point2="0,35.6949152542373"
-                    Point3="4,35.6949152542373" />
-                  <mssgle:LineSegment
-                    End="148.133333333333,35.6949152542373" />
-                  <mssgle:CubicBezierSegment
-                    Point1="148.133333333333,35.6949152542373"
-                    Point2="152.133333333333,35.6949152542373"
-                    Point3="152.133333333333,39.6949152542373" />
-                  <mssgle:LineSegment
-                    End="152.133333333333,52.5000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="269.6,41.6"
-          Id="Package\Populate MSTR schema\Derived Column MSTR Orders ValidFrom"
-          TopLeft="1098.9,1021.5" />
         <EdgeLayout
           Id="Package\Populate MSTR schema.Paths[Union All Output 11]"
-          TopLeft="1233.7,961.5">
+          TopLeft="1401,965.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -22017,24 +21623,20 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Populate MSTR schema\Insert MSTR Orders"
-          TopLeft="1148.1,1123.1" />
         <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Derived Column Output3]"
-          TopLeft="1233.7,1063.1">
+          Id="Package\Populate MSTR schema.Paths[Union All Output 1]"
+          TopLeft="1021,965.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000002"
+              EndConnector="0,60.0000000000001"
               Start="0,0"
-              End="0,52.5000000000002">
+              End="0,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000002" />
+                    End="0,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -22043,112 +21645,485 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="245.6,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command  MSTR Orders 2"
-          TopLeft="1294.9,716.699999999999" />
         <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Inferred Member Updates Output4]"
-          TopLeft="1317.46,656.699999999999">
+          Id="Package\Populate MSTR schema.Paths[Sort Output11]"
+          TopLeft="2309,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="100.24,60"
+              EndConnector="218.5,60"
               Start="0,0"
-              End="100.24,52.5">
+              End="218.5,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.6484467164766" />
+                    End="0,31.748031496063" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.6484467164766"
-                    Point2="0,17.6484467164766"
-                    Point3="4,17.6484467164766" />
+                    Point1="0,31.748031496063"
+                    Point2="0,35.748031496063"
+                    Point3="4,35.748031496063" />
                   <mssgle:LineSegment
-                    End="96.2399999999998,17.6484467164766" />
+                    End="214.5,35.748031496063" />
                   <mssgle:CubicBezierSegment
-                    Point1="96.2399999999998,17.6484467164766"
-                    Point2="100.24,17.6484467164766"
-                    Point3="100.24,21.6484467164766" />
+                    Point1="214.5,35.748031496063"
+                    Point2="218.5,35.748031496063"
+                    Point3="218.5,39.748031496063" />
                   <mssgle:LineSegment
-                    End="100.24,52.5" />
+                    End="218.5,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-24.2829882812501,22.6484467164766,148.8059765625,11.658203125"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="233.6,41.6"
-          Id="Package\Populate MSTR schema\OLE DB Command MSTR Orders"
-          TopLeft="620.9,716.699999999999" />
         <EdgeLayout
-          Id="Package\Populate MSTR schema.Paths[Changing Attribute Updates Output4]"
-          TopLeft="1149.94,656.699999999999">
+          Id="Package\Populate MSTR schema.Paths[Sort Output10]"
+          TopLeft="2564,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-412.24,60.0000000000001"
+              EndConnector="248.666666666667,59.9999999999998"
               Start="0,0"
-              End="-412.24,52.5000000000001">
+              End="248.666666666667,52.4999999999998">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.6484467164766" />
+                    End="0,31.7997218358831" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.6484467164766"
-                    Point2="0,17.6484467164766"
-                    Point3="-4,17.6484467164766" />
+                    Point1="0,31.7997218358831"
+                    Point2="0,35.7997218358831"
+                    Point3="4,35.7997218358831" />
                   <mssgle:LineSegment
-                    End="-408.24,17.6484467164766" />
+                    End="244.666666666667,35.7997218358831" />
                   <mssgle:CubicBezierSegment
-                    Point1="-408.24,17.6484467164766"
-                    Point2="-412.24,17.6484467164766"
-                    Point3="-412.24,21.6484467164766" />
+                    Point1="244.666666666667,35.7997218358831"
+                    Point2="248.666666666667,35.7997218358831"
+                    Point3="248.666666666667,39.7997218358831" />
                   <mssgle:LineSegment
-                    End="-412.24,52.5000000000001" />
+                    End="248.666666666667,52.4999999999998" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-284.65390625,22.6484467164766,157.0678125,11.6630859375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output9]"
+          TopLeft="1939,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-232.333333333333,60"
+              Start="0,0"
+              End="-232.333333333333,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.7555178268251" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.7555178268251"
+                    Point2="0,35.7555178268251"
+                    Point3="-4,35.7555178268251" />
+                  <mssgle:LineSegment
+                    End="-228.333333333333,35.7555178268251" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-228.333333333333,35.7555178268251"
+                    Point2="-232.333333333333,35.7555178268251"
+                    Point3="-232.333333333333,39.7555178268251" />
+                  <mssgle:LineSegment
+                    End="-232.333333333333,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output8]"
+          TopLeft="1401,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-36.5,60"
+              Start="0,0"
+              End="-36.5,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.748031496063" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.748031496063"
+                    Point2="0,35.748031496063"
+                    Point3="-4,35.748031496063" />
+                  <mssgle:LineSegment
+                    End="-32.5,35.748031496063" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-32.5,35.748031496063"
+                    Point2="-36.5,35.748031496063"
+                    Point3="-36.5,39.748031496063" />
+                  <mssgle:LineSegment
+                    End="-36.5,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output7]"
+          TopLeft="2859,557.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="46.3333333333335,60"
+              Start="0,0"
+              End="46.3333333333335,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.7997218358832" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.7997218358832"
+                    Point2="0,35.7997218358832"
+                    Point3="4,35.7997218358832" />
+                  <mssgle:LineSegment
+                    End="42.3333333333335,35.7997218358832" />
+                  <mssgle:CubicBezierSegment
+                    Point1="42.3333333333335,35.7997218358832"
+                    Point2="46.3333333333335,35.7997218358832"
+                    Point3="46.3333333333335,39.7997218358832" />
+                  <mssgle:LineSegment
+                    End="46.3333333333335,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output6]"
+          TopLeft="1136,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-77.5,60"
+              Start="0,0"
+              End="-77.5,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.7544757033248" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.7544757033248"
+                    Point2="0,35.7544757033248"
+                    Point3="-4,35.7544757033248" />
+                  <mssgle:LineSegment
+                    End="-73.5,35.7544757033248" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-73.5,35.7544757033248"
+                    Point2="-77.5,35.7544757033248"
+                    Point3="-77.5,39.7544757033248" />
+                  <mssgle:LineSegment
+                    End="-77.5,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output5]"
+          TopLeft="2859,761.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-255,60"
+              Start="0,0"
+              End="-255,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.8024691358025" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.8024691358025"
+                    Point2="0,35.8024691358025"
+                    Point3="-4,35.8024691358025" />
+                  <mssgle:LineSegment
+                    End="-251,35.8024691358025" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-251,35.8024691358025"
+                    Point2="-255,35.8024691358025"
+                    Point3="-255,39.8024691358025" />
+                  <mssgle:LineSegment
+                    End="-255,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output4]"
+          TopLeft="2564,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="36.5,60"
+              Start="0,0"
+              End="36.5,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.748031496063" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.748031496063"
+                    Point2="0,35.748031496063"
+                    Point3="4,35.748031496063" />
+                  <mssgle:LineSegment
+                    End="32.5,35.748031496063" />
+                  <mssgle:CubicBezierSegment
+                    Point1="32.5,35.748031496063"
+                    Point2="36.5,35.748031496063"
+                    Point3="36.5,39.748031496063" />
+                  <mssgle:LineSegment
+                    End="36.5,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output3]"
+          TopLeft="2557,761.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-47,60"
+              Start="0,0"
+              End="-47,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.8024691358025" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.8024691358025"
+                    Point2="0,35.8024691358025"
+                    Point3="-4,35.8024691358025" />
+                  <mssgle:LineSegment
+                    End="-43,35.8024691358025" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-43,35.8024691358025"
+                    Point2="-47,35.8024691358025"
+                    Point3="-47,39.8024691358025" />
+                  <mssgle:LineSegment
+                    End="-47,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output2]"
+          TopLeft="1663,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-225.5,60"
+              Start="0,0"
+              End="-225.5,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.748031496063" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.748031496063"
+                    Point2="0,35.748031496063"
+                    Point3="-4,35.748031496063" />
+                  <mssgle:LineSegment
+                    End="-221.5,35.748031496063" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-221.5,35.748031496063"
+                    Point2="-225.5,35.748031496063"
+                    Point3="-225.5,39.748031496063" />
+                  <mssgle:LineSegment
+                    End="-225.5,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output1]"
+          TopLeft="1669,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-37.6666666666667,60"
+              Start="0,0"
+              End="-37.6666666666667,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.7555178268251" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.7555178268251"
+                    Point2="0,35.7555178268251"
+                    Point3="-4,35.7555178268251" />
+                  <mssgle:LineSegment
+                    End="-33.6666666666667,35.7555178268251" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-33.6666666666667,35.7555178268251"
+                    Point2="-37.6666666666667,35.7555178268251"
+                    Point3="-37.6666666666667,39.7555178268251" />
+                  <mssgle:LineSegment
+                    End="-37.6666666666667,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[Sort Output]"
+          TopLeft="883,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="100.5,59.9999999999998"
+              Start="0,0"
+              End="100.5,52.4999999999998">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.7544757033247" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.7544757033247"
+                    Point2="0,35.7544757033247"
+                    Point3="4,35.7544757033247" />
+                  <mssgle:LineSegment
+                    End="96.5,35.7544757033247" />
+                  <mssgle:CubicBezierSegment
+                    Point1="96.5,35.7544757033247"
+                    Point2="100.5,35.7544757033247"
+                    Point3="100.5,39.7544757033247" />
+                  <mssgle:LineSegment
+                    End="100.5,52.4999999999998" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output5]"
+          TopLeft="411,863.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output4]"
+          TopLeft="2557,659.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.9999999999999"
+              Start="0,0"
+              End="0,52.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Populate MSTR schema.Paths[OLE DB Source Output3]"
+          TopLeft="2564,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Populate MSTR schema\Read STG Suppliers">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Populate MSTR schema\Read STG Territories">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populate MSTR schema\Read STG EmployeeTerritories">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -22173,6 +22148,90 @@
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populate MSTR schema\Read STG Customers">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populate MSTR schema\Read STG Employees">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populate MSTR schema\Read STG OrderDetails">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Shippers">
+    <Properties>
+      <Property>
+        <Name>SCDMetadata</Name>
+        <Value
+          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionID&gt;{9978FA64-EE2D-431C-86A4-29563379DC64}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[MSTR].[Shippers]&lt;/TableName&gt;
+  &lt;InputToColumnsCollection&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Shippers.Outputs[Data Conversion Output].Columns[Copy of CompanyName]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;CompanyName&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Shippers.Outputs[Data Conversion Output].Columns[Copy of Phone]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Phone&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Shippers.Outputs[Data Conversion Output].Columns[Copy of ShipperID]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;SRC_ID_Shippers&lt;/ColumnName&gt;
+      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
+      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+  &lt;/InputToColumnsCollection&gt;
+  &lt;GeneratedComponentsIdentificationStrings&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 10&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 11&lt;/anyType&gt;
+  &lt;/GeneratedComponentsIdentificationStrings&gt;
+  &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
+  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
+  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
+  &lt;CurrentIndicatorColumn /&gt;
+  &lt;InferredIndicatorColumn /&gt;
+  &lt;ValueCurrent /&gt;
+  &lt;ValueExpired /&gt;
+  &lt;StartDateColumn /&gt;
+  &lt;EndDateColumn /&gt;
+  &lt;DateVariable /&gt;
+  &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
+&lt;/SCDWizardMetadata&gt;</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -22323,6 +22382,146 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Populate MSTR schema\Read STG Products">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populate MSTR schema\Read STG Suppliers">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Customers">
+    <Properties>
+      <Property>
+        <Name>SCDMetadata</Name>
+        <Value
+          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionID&gt;{9978FA64-EE2D-431C-86A4-29563379DC64}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[MSTR].[Customers]&lt;/TableName&gt;
+  &lt;InputToColumnsCollection&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Address]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Address&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of City]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;City&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of CompanyName]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;CompanyName&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of ContactName]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ContactName&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of ContactTitle]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ContactTitle&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Country]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Country&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Fax]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Fax&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Phone]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Phone&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of PostalCode]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;PostalCode&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Region]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Region&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of CustomerID]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;SRC_ID_Customers&lt;/ColumnName&gt;
+      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
+      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+  &lt;/InputToColumnsCollection&gt;
+  &lt;GeneratedComponentsIdentificationStrings&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 8&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 9&lt;/anyType&gt;
+  &lt;/GeneratedComponentsIdentificationStrings&gt;
+  &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
+  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
+  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
+  &lt;CurrentIndicatorColumn /&gt;
+  &lt;InferredIndicatorColumn /&gt;
+  &lt;ValueCurrent /&gt;
+  &lt;ValueExpired /&gt;
+  &lt;StartDateColumn /&gt;
+  &lt;EndDateColumn /&gt;
+  &lt;DateVariable /&gt;
+  &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
+&lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populate MSTR schema\Read STG EmployeeTerritories">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populate MSTR schema\Read STG Region">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Orders">
     <Properties>
       <Property>
@@ -22463,196 +22662,6 @@
   &lt;DateVariable&gt;System::CreationDate&lt;/DateVariable&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populate MSTR schema\Read STG Region">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Customers">
-    <Properties>
-      <Property>
-        <Name>SCDMetadata</Name>
-        <Value
-          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionID&gt;{9978FA64-EE2D-431C-86A4-29563379DC64}&lt;/ConnectionID&gt;
-  &lt;TableName&gt;[MSTR].[Customers]&lt;/TableName&gt;
-  &lt;InputToColumnsCollection&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Address]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;Address&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of City]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;City&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of CompanyName]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;CompanyName&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of ContactName]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;ContactName&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of ContactTitle]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;ContactTitle&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Country]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;Country&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Fax]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;Fax&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Phone]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;Phone&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of PostalCode]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;PostalCode&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of Region]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;Region&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Customers.Outputs[Data Conversion Output].Columns[Copy of CustomerID]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;SRC_ID_Customers&lt;/ColumnName&gt;
-      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
-      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-  &lt;/InputToColumnsCollection&gt;
-  &lt;GeneratedComponentsIdentificationStrings&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 8&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 9&lt;/anyType&gt;
-  &lt;/GeneratedComponentsIdentificationStrings&gt;
-  &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
-  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
-  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
-  &lt;CurrentIndicatorColumn /&gt;
-  &lt;InferredIndicatorColumn /&gt;
-  &lt;ValueCurrent /&gt;
-  &lt;ValueExpired /&gt;
-  &lt;StartDateColumn /&gt;
-  &lt;EndDateColumn /&gt;
-  &lt;DateVariable /&gt;
-  &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
-&lt;/SCDWizardMetadata&gt;</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populate MSTR schema\Read STG Employees">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populate MSTR schema\Slowly Changing Dimension MSTR Shippers">
-    <Properties>
-      <Property>
-        <Name>SCDMetadata</Name>
-        <Value
-          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionID&gt;{9978FA64-EE2D-431C-86A4-29563379DC64}&lt;/ConnectionID&gt;
-  &lt;TableName&gt;[MSTR].[Shippers]&lt;/TableName&gt;
-  &lt;InputToColumnsCollection&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Shippers.Outputs[Data Conversion Output].Columns[Copy of CompanyName]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;CompanyName&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Shippers.Outputs[Data Conversion Output].Columns[Copy of Phone]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;Phone&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Convert Shippers.Outputs[Data Conversion Output].Columns[Copy of ShipperID]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;SRC_ID_Shippers&lt;/ColumnName&gt;
-      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
-      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-  &lt;/InputToColumnsCollection&gt;
-  &lt;GeneratedComponentsIdentificationStrings&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 10&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 11&lt;/anyType&gt;
-  &lt;/GeneratedComponentsIdentificationStrings&gt;
-  &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
-  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
-  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
-  &lt;CurrentIndicatorColumn /&gt;
-  &lt;InferredIndicatorColumn /&gt;
-  &lt;ValueCurrent /&gt;
-  &lt;ValueExpired /&gt;
-  &lt;StartDateColumn /&gt;
-  &lt;EndDateColumn /&gt;
-  &lt;DateVariable /&gt;
-  &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
-&lt;/SCDWizardMetadata&gt;</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populate MSTR schema\Read STG OrderDetails">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populate MSTR schema\Read STG Products">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -22815,19 +22824,6 @@
   &lt;DateVariable&gt;System::CreationDate&lt;/DateVariable&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Populate MSTR schema\Read STG Customers">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
